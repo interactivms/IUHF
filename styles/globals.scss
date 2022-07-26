@@ -198,9 +198,33 @@ body {
         width: 15%;
         max-height: 100%;
         background: #182765;
+        box-shadow: (10px 10px 10px #423f3f);
+        //filter: drop-shadow(23px 16px 17px #423f3f);
         img {
           width: 50%;
           max-width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .education {
+    .courses {
+      .coursesWrapper {
+        flex-direction: column;
+        .item {
+          width: 100%;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+      .careers {
+        flex-wrap: wrap;
+        .item {
+          margin: 1rem;
+          width: 25%;
         }
       }
     }
