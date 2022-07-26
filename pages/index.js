@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div className="main">
         <Header />
-        a
+
         <MainContent />
         <div className="education">
           <Education />
