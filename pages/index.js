@@ -3,6 +3,7 @@ import Header from "../src/components/header";
 import MainContent from "../src/components/mainContent";
 import Education from "../src/components/education";
 import Talent from "../src/components/talent";
+import OurTeachers from "../src/components/teachers";
 export default function Home() {
   return (
     <div>
@@ -24,8 +25,11 @@ export default function Home() {
         <div id="talent">
           <Talent />
         </div>
-        <div className="separator">
+        <div className="sectionSeparator">
           <p>Nuestros Docentes</p>
+        </div>
+        <div id="teachers">
+          <OurTeachers />
         </div>
       </div>
     </div>
