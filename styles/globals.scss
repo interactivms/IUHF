@@ -19,8 +19,13 @@ body {
   display: flex;
   z-index: 3;
   justify-content: space-between;
-  background: transparent;
-  position: absolute;
+
+  background: rgba(0, 76, 127, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+
+  position: fixed;
   color: #fff;
   .logo {
     width: 50%;
