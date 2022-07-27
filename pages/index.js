@@ -4,6 +4,10 @@ import MainContent from "../src/components/mainContent";
 import Education from "../src/components/education";
 import Talent from "../src/components/talent";
 import OurTeachers from "../src/components/teachers";
+import Incubator from "../src/components/incubator";
+import History from "../src/components/history";
+import Future from "../src/components/future";
+import Contact from "../src/components/contact";
 export default function Home() {
   return (
     <div>
@@ -30,6 +34,18 @@ export default function Home() {
         </div>
         <div id="teachers">
           <OurTeachers />
+        </div>
+        <div id="incubator">
+          <Incubator />
+        </div>
+        <div id="ourHistory">
+          <History />
+        </div>
+        <div id="future">
+          <Future />
+        </div>
+        <div id="contact">
+          <Contact />
         </div>
       </div>
     </div>

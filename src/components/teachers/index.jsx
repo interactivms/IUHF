@@ -28,7 +28,7 @@ const index = () => {
       <div className="teachers">
         <Carousel showDots={true} cols={2} loop={true}>
           {teachers.map((item, key) => (
-            <Carousel.Item>
+            <Carousel.Item key={key}>
               <TeacherItem
                 photo={item.photo}
                 name={item.name}
@@ -44,9 +44,9 @@ const index = () => {
               height="315"
               src="https://www.youtube.com/embed/MZi1dXwCqG8"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <div className="videoRight">
