@@ -7,6 +7,7 @@ import Incubator from "../src/components/incubator";
 import History from "../src/components/history";
 import Future from "../src/components/future";
 import Contact from "../src/components/contact";
+import Footer from "../src/components/footer";
 export default function Home() {
   return (
     <div>
@@ -37,6 +38,7 @@ export default function Home() {
         <div id="contact">
           <Contact />
         </div>
+        <Footer />
       </div>
     </div>
   );
