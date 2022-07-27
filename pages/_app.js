@@ -6,6 +6,11 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="shortcut icon" href="public/favicon.ico" />
+        <title>Instituo Universitario de las Habilidades del Futuro</title>
+        <meta
+          name="description"
+          content="Instituo Universitario de las Habilidades del Futuro IUHF"
+        />
       </Head>
       <Component {...pageProps} />
     </>
