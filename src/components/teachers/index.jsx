@@ -16,8 +16,8 @@ const index = () => {
         "Ingeniero en Electrónica, es líder de un Centro de Excelencia Académica integrado por más de 50 ingenieros. 15 años involucrado en el soporte a diversos ambientes de redes lo preceden .",
     },
     {
-      photo: "http://picsum.photos/50/50",
-      //   photo: "/img/teachers/alfonso.png",
+      //   photo: "http://picsum.photos/50/50",
+      photo: "",
       name: "Luis Alfonso Ramírez Silva",
       description:
         "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
@@ -37,6 +37,30 @@ const index = () => {
             </Carousel.Item>
           ))}
         </Carousel>
+        <div className="video">
+          <div className="videoLeft">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/MZi1dXwCqG8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="videoRight">
+            <div className="title">
+              <p className="titleWithLine">Nuestro consejo directivo</p>
+            </div>
+            <p className="description">
+              Nuestros profesionistas son líderes de alto impacto en la
+              industria tecnológica de México y el mundo, preparados para
+              guiarte en las habilidades del futuro.
+            </p>
+            <button className="knowMore"> Conoce Más</button>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -14,8 +14,8 @@ const index = ({ name, desc, photo }) => {
           <img src="/img/line.svg" />
           <p className="pName">{name}</p>
         </div>
-
-        <p className="desc">{desc}</p>
+        <p className="desc">{desc}</p>{" "}
+        <button className="seeTeacherButton">Ver más </button>
       </div>
     </div>
   );
