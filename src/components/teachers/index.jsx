@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from "react-grid-carousel";
 import TeacherItem from "../teacherItem";
 const index = () => {
+  const [smallScreen, setSmallScreen] = React.useState(false);
+  useEffect(() => {
+    let width = window.innerWidth;
+    if (width < 992) {
+      setSmallScreen(true);
+      console.log("si");
+    }
+  }, []);
   const teachers = [
     {
       photo: "/img/teachers/victor.png",
@@ -23,20 +31,24 @@ const index = () => {
         "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
     },
   ];
+
   return (
     <>
       <div className="teachers">
-        <Carousel showDots={true} cols={2} loop={true}>
-          {teachers.map((item, key) => (
-            <Carousel.Item key={key}>
-              <TeacherItem
-                photo={item.photo}
-                name={item.name}
-                desc={item.description}
-              />
-            </Carousel.Item>
-          ))}
-        </Carousel>
+        <div>
+          <Carousel showDots={true} cols={smallScreen ? 2 : 1} loop={true}>
+            {teachers.map((item, key) => (
+              <Carousel.Item key={key}>
+                <TeacherItem
+                  photo={item.photo}
+                  name={item.name}
+                  desc={item.description}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+
         <div className="video">
           <div className="videoLeft">
             <iframe

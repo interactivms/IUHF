@@ -3,6 +3,9 @@ import React from "react";
 const index = () => {
   return (
     <div className="future">
+      <div className="magicTitle">
+        <h2>Sal del promedio, proyecta tu futuro...</h2>
+      </div>
       <div className="leftSide">
         <div>
           <div className="jobTitle">1. Ingeniero de Big Data</div>

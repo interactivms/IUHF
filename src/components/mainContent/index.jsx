@@ -15,9 +15,6 @@ const index = () => {
           <p>Lideres</p>
         </div>
       </div>
-      <div className="photoBackgroud">
-        <img draggable="false" src="/img/mainBackground.png" />
-      </div>
     </div>
   );
 };

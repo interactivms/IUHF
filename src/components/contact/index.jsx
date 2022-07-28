@@ -5,8 +5,10 @@ const index = () => {
     <div className="contact">
       <form>
         <input placeholder="Nombre" />
-        <input placeholder="Correo Electronico" />
-        <button>Enviar</button>
+        <div>
+          <input placeholder="Correo Electronico" />
+          <button>Enviar</button>
+        </div>
       </form>
       <h1>Contáctanos</h1>
       <p>Con gusto te atenderemos.</p>

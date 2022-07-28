@@ -10,36 +10,34 @@ import Contact from "../src/components/contact";
 import Footer from "../src/components/footer";
 export default function Home() {
   return (
-    <div>
-      <div className="main">
-        <Header />
-        <MainContent />
-        <div id="education">
-          <Education />
-        </div>
-        <div id="talent">
-          <Talent />
-        </div>
-        <div className="sectionSeparator">
-          <p>Nuestros Docentes</p>
-        </div>
-        <div id="teachers">
-          <OurTeachers />
-        </div>
-        <div id="incubator">
-          <Incubator />
-        </div>
-        <div id="ourHistory">
-          <History />
-        </div>
-        <div id="future">
-          <Future />
-        </div>
-        <div id="contact">
-          <Contact />
-        </div>
-        <Footer />
+    <div className="main">
+      <Header />
+      <MainContent />
+      <div id="education">
+        <Education />
       </div>
+      <div id="talent">
+        <Talent />
+      </div>
+      <div className="sectionSeparator">
+        <p>Nuestros Docentes</p>
+      </div>
+      <div id="teachers">
+        <OurTeachers />
+      </div>
+      <div id="incubator">
+        <Incubator />
+      </div>
+      <div id="ourHistory">
+        <History />
+      </div>
+      <div id="future">
+        <Future />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }
