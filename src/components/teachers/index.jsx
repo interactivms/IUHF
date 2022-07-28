@@ -7,7 +7,6 @@ const index = () => {
     let width = window.innerWidth;
     if (width < 992) {
       setSmallScreen(true);
-      console.log("si");
     }
   }, []);
   const teachers = [
@@ -36,7 +35,7 @@ const index = () => {
     <>
       <div className="teachers">
         <div>
-          <Carousel showDots={true} cols={smallScreen ? 2 : 1} loop={true}>
+          <Carousel showDots={true} cols={smallScreen ? 1 : 2} loop={true}>
             {teachers.map((item, key) => (
               <Carousel.Item key={key}>
                 <TeacherItem
