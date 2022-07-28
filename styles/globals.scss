@@ -19,6 +19,7 @@ body {
 .main {
   width: 100vw;
   max-width: 100vw;
+  overflow: hidden;
 }
 
 .mainContent {
@@ -532,7 +533,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  height: 730px;
+  min-height: 800px;
   justify-content: center;
   background-color: #10202d;
   align-items: center;
@@ -602,7 +603,7 @@ body {
   align-items: center;
   background-color: #f8b232;
   form {
-    padding: 4rem;
+    padding: 2rem;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -612,6 +613,7 @@ body {
       align-items: center;
     }
     input {
+      border: none;
       width: 75%;
       margin: 0.5rem 0;
       padding: 1rem;
