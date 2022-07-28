@@ -8,13 +8,13 @@ const index = () => {
       </div>
       <div className="socials">
         <div className="socialLinks">
-          <a href="https://www.facebook.com">
+          <a className="facebook" href="https://www.facebook.com">
             <img src="/img/socials/facebook.svg" />
           </a>
-          <a href="https://www.instagram.com">
+          <a className="instagram" href="https://www.instagram.com">
             <img src="/img/socials/instagram.svg" />
           </a>
-          <a href="https://www.linkedin.com">
+          <a className="linkedin" href="https://www.linkedin.com">
             <img src="/img/socials/linkedin.svg" />
           </a>
         </div>
