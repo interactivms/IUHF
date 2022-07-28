@@ -542,11 +542,14 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   .magicTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     h2 {
       display: none;
+      font-size: 1.5rem;
+      width: 70%;
 
-      font-size: 2rem;
-      letter-spacing: 5px;
       text-align: right;
       word-wrap: break-all;
     }
@@ -735,6 +738,11 @@ body {
   }
 }
 @media screen and (max-width: 992px) {
+  .sectionSeparator {
+    p {
+      font-size: 2rem;
+    }
+  }
   .mainContent {
     .content {
       padding: 0;
@@ -875,7 +883,7 @@ body {
       margin-bottom: 0;
       .jobTitle {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
     }
     .rightSide {
@@ -884,7 +892,7 @@ body {
       align-items: center;
       .jobTitle {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
       h2 {
         display: none;
@@ -925,6 +933,7 @@ body {
     }
     .videoRight {
       width: 100%;
+      padding: 1rem;
       .description {
         width: 100%;
         font-size: 1rem;
