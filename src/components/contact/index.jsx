@@ -3,6 +3,8 @@ import React from "react";
 const index = () => {
   return (
     <div className="contact">
+      {" "}
+      <h1>Contáctanos</h1>
       <form>
         <input placeholder="Nombre" />
         <div>
@@ -10,7 +12,6 @@ const index = () => {
           <button>Enviar</button>
         </div>
       </form>
-      <h1>Contáctanos</h1>
       <p>Con gusto te atenderemos.</p>
     </div>
   );
