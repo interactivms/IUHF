@@ -14,6 +14,13 @@ const index = () => {
           <div className="separator">|</div>
           <p>Lideres</p>
         </div>
+        <div>
+          <div className="metaCursos">
+            <button>
+              <img src="/img/metacursos.svg" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ body {
     color: #fff;
     margin-top: 10rem;
     .h1Holder {
-      width: 60%;
+      width: 100%;
       padding-left: 4rem;
       h1 {
         font-size: 4.5em;
@@ -56,6 +56,16 @@ body {
         width: 5px;
         color: aqua;
         background-color: aqua;
+      }
+    }
+    .metaCursos {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 2rem;
+      width: 100%;
+      button {
+        border: none;
+        background: transparent;
       }
     }
   }
@@ -744,6 +754,9 @@ body {
     }
   }
   .mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .content {
       padding: 0;
       margin-top: 0;
@@ -761,6 +774,12 @@ body {
         text-align: center;
         font-size: 1.5rem;
         padding: 1rem;
+      }
+      .metaCursos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
       }
     }
   }
