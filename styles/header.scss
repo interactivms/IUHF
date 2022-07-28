@@ -5,36 +5,36 @@
   //   background: transparent;
   /* From https://css.glass */
 
-  margin-bottom: -102px;
+  margin-bottom: -120px;
   padding: 20px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
   box-sizing: border-box;
 }
-.menu-container a {
-  color: #f5f9ff;
-}
+
 .menu-logo {
-  width: 100%;
+  img {
+    width: 100%;
+  }
   line-height: 0;
   margin: 0 20px;
 }
 
 .menu-logo img {
-  max-width: 200px;
-  max-height: 300px;
   flex-shrink: 0;
 }
 
 .menu-container a {
   text-decoration: none;
   color: #f5f9ff;
+  margin-top: 1rem;
   transition: color 0.3s ease;
 }
 
 .menu-container a:hover {
   color: #2ad6f2;
+  text-decoration: underline;
 }
 
 .menu-container input {
@@ -105,14 +105,16 @@
 
   .menu-logo {
     position: absolute;
-    width: 100%;
+    img {
+      width: 100%;
+    }
     left: 0;
     top: 50%;
     transform: translateY(-50%);
   }
 
   .menu-logo img {
-    max-height: 150px;
+    max-height: 400px;
   }
 
   .menu {
