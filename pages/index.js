@@ -13,28 +13,28 @@ export default function Home() {
     <div className="main">
       <Header />
       <MainContent />
-      <div id="education">
+      <div id="Education">
         <Education />
       </div>
-      <div id="talent">
+      <div id="Talent">
         <Talent />
       </div>
       <div className="sectionSeparator">
         <p>Nuestros Docentes</p>
       </div>
-      <div id="teachers">
+      <div id="Teachers">
         <OurTeachers />
       </div>
-      <div id="incubator">
+      <div id="Incubator">
         <Incubator />
       </div>
-      <div id="ourHistory">
+      <div id="OurHistory">
         <History />
       </div>
-      <div id="future">
+      <div id="Future">
         <Future />
       </div>
-      <div id="contact">
+      <div id="Contact">
         <Contact />
       </div>
       <Footer />

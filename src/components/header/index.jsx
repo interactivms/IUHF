@@ -1,18 +1,34 @@
 import React from "react";
-
+import Image from "next/image";
 const index = () => {
   return (
-    <div className="header">
-      <div className="logo">
-        <img src="/img/Recurso 5.svg" alt="logo" />
+    <nav className="menu-container">
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <a href="/" className="menu-logo">
+        <img src="/img/Recurso 5.svg" alt="IUHF logo" />
+      </a>
+
+      <div className="menu">
+        <ul>
+          <li>
+            <a href="#Education">EDUCACIÓN</a>
+          </li>
+          <li>
+            <a href="#Leaders">LÍDERES</a>
+          </li>
+          <li>
+            <a href="#Blog">BLOG</a>
+          </li>
+          <li>
+            <a href="#Contact">CONTACTO</a>
+          </li>
+        </ul>
       </div>
-      <div className="links">
-        <a href="#education">EDUCACIÓN</a>
-        <a href="#leaders">LÍDERES</a>
-        <a href="#blog">BLOG</a>
-        <a href="#contact">CONTACTO</a>
-      </div>
-    </div>
+    </nav>
   );
 };
 
