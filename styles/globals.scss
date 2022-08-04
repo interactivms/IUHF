@@ -17,11 +17,13 @@ body {
   box-sizing: border-box;
 }
 .main {
-  width: 100vw;
+  width: 100%;
   max-width: 100vw;
   overflow: hidden;
 }
-
+.white {
+  color:white;
+}
 .mainContent {
   width: 100%;
   height: 100vh;
@@ -29,6 +31,11 @@ body {
   justify-content: center;
   align-items: center;
   background: url("/img/mainBackground.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 
   .content {
     padding: 2rem;
@@ -70,15 +77,42 @@ body {
     }
   }
 }
+
+.careerItemContainer {
+  padding: 1.5rem;
+}
+.careerItem {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  height: 11.5rem;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  background: #182765;
+  box-shadow: (10px 10px 10px #423f3f);
+  //filter: drop-shadow(23px 16px 17px #423f3f);
+  img {
+    width: 50%;
+    max-width: 80%;
+  }
+}
+
 .education {
   background: #eaeaea;
   width: 100%;
   z-index: inherit;
   color: #000;
   display: flex;
+  padding: 1.5rem 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
   .wrapper {
     width: 75%;
     padding: 2rem;
@@ -91,7 +125,6 @@ body {
     }
   }
   .courses {
-    width: 100%;
     padding: 2rem;
     h2 {
       text-align: center;
@@ -123,8 +156,8 @@ body {
         -webkit-box-shadow: 19px 19px 10px -4px rgba(0, 0, 0, 0.09);
         -moz-box-shadow: 19px 19px 10px -4px rgba(0, 0, 0, 0.09);
         img {
-          width: 50%;
-          max-width: 50%;
+          width: 40%;
+          max-width: 40%;
           margin-right: 1rem;
         }
         .titles {
@@ -186,6 +219,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
+  
   .leftSide {
     width: 45%;
     display: flex;
@@ -208,6 +242,9 @@ body {
   }
   .rightside {
     width: 55%;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     background-color: #aeaeae;
@@ -268,8 +305,8 @@ body {
 .teachers {
   width: 100%;
   display: flex;
+  padding: 1.5rem 3rem;
   flex-direction: column;
-  padding: 1rem;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -360,12 +397,13 @@ body {
 
   max-width: 700px;
   .leftSide {
-    width: 15%;
+    width: 30%;
 
     margin: 1rem;
     .photoWrapper {
+      min-height: 13vw;
       width: 100%;
-      height: 100%;
+      max-height: 150px;
       border-radius: 50%;
       background: rgb(35, 141, 221);
       background: linear-gradient(
@@ -373,10 +411,13 @@ body {
         rgba(35, 141, 221, 1) 70%,
         rgba(148, 227, 245, 1) 100%
       );
+      display:flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   .rightSide {
-    width: 75%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     .nameHolder {
@@ -403,7 +444,7 @@ body {
     .desc {
       width: 100%;
       text-align: justify;
-      margin-left: 1rem;
+      padding: 1.5rem;
       color: #fff;
     }
   }
@@ -423,7 +464,7 @@ body {
 }
 .incubator {
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -489,6 +530,7 @@ body {
 .history {
   width: 100%;
   display: flex;
+  padding: 1.5rem 3rem;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -542,6 +584,7 @@ body {
 .future {
   width: 100%;
   display: flex;
+  padding: 1.5rem 3rem;
   flex-direction: row;
   min-height: 800px;
   justify-content: center;
@@ -658,7 +701,7 @@ body {
 }
 .footer {
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem 3rem;
   background: #012b3a;
   display: flex;
   flex-direction: row;
@@ -814,22 +857,38 @@ body {
     }
   }
   .teachers {
+    padding: 1.5rem 3rem;
     .teacherItem {
       width: 100%;
       flex-direction: column;
       .leftSide {
-        width: 25%;
+        .photoWrapper {
+          min-height: 20vw;
+          width: 100%;
+          max-height: 150px;
+          border-radius: 50%;
+          background: rgb(35, 141, 221);
+          background: linear-gradient(
+            90deg,
+            rgba(35, 141, 221, 1) 70%,
+            rgba(148, 227, 245, 1) 100%
+          );
+          display:flex;
+          align-items: center;
+          justify-content: center;
+        }
+        width: 50%;
       }
       .rightSide {
         .desc {
-          font-size: 0.8rem;
-          margin: 1rem 0;
+          font-size: 1.1rem;
+          margin: 0 0;
         }
         .nameHolder {
           width: 100%;
           p {
             width: 100%;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
           }
         }
       }
@@ -838,6 +897,7 @@ body {
   .talent {
     width: 100%;
     flex-direction: column;
+    
     .leftSide {
       width: 100%;
       p {
@@ -976,6 +1036,7 @@ body {
   .history {
     flex-direction: column;
     background-image: none;
+    padding: 1.5rem 1rem;
     background-color: #182765;
     .leftSide {
       width: 100%;
@@ -1016,7 +1077,8 @@ body {
         flex-direction: column;
         width: 75%;
         .item {
-          margin: 1rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
           width: 100%;
           .titles {
             .bottom {
@@ -1044,14 +1106,28 @@ body {
     }
   }
 }
+.mobile {
+  display: none !important;
+}
+.no-mobile {
+  display: block;
+}
 
 @media screen and (max-width: 500px) {
   .talent {
     .rightside {
+      padding-right: 0rem;
       .buttonsWrapper {
         width: 100%;
       }
     }
+  }
+  .mobile {
+    display: block !important;
+  }
+
+  .no-mobile {
+    display: none !important;
   }
 }
 
@@ -1074,13 +1150,14 @@ body {
     }
     p {
       margin: 0.3rem;
-      padding: 0;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
   }
   .footer {
     .socials {
       .socialLinks {
-        flex-direction: column;
+        flex-direction: row;
         a {
           margin: 1rem;
         }
@@ -1104,7 +1181,26 @@ body {
   .teachers {
     .teacherItem {
       .leftSide {
+        .photoWrapper {
+          min-height: 40vw;
+          width: 100%;
+          max-height: 150px;
+          border-radius: 50%;
+          background: rgb(35, 141, 221);
+          background: linear-gradient(
+            90deg,
+            rgba(35, 141, 221, 1) 70%,
+            rgba(148, 227, 245, 1) 100%
+          );
+          display:flex;
+          align-items: center;
+          justify-content: center;
+        }
+
         width: 50%;
+      }
+      .rightSide {
+        padding: 0;
       }
     }
     .video {

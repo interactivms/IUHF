@@ -13,7 +13,7 @@ const index = () => {
       </a>
 
       <div className="menu">
-        <ul>
+        <ul className="navMenu">
           <li>
             <a href="#Education">EDUCACIÓN</a>
           </li>

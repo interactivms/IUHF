@@ -7,13 +7,13 @@ const index = ({ name, desc, photo }) => {
         <div className="photoWrapper">
           <img draggable="false" src={photo} alt="photo" />
         </div>
+        <div className="nameHolder">
+          <p className="pName white">{name}</p>
+        </div>
       </div>
 
       <div className="rightSide">
-        <div className="nameHolder">
-          <img src="/img/line.svg" />
-          <p className="pName">{name}</p>
-        </div>
+
         <p className="desc">{desc}</p>{" "}
         <button className="seeTeacherButton">Ver más </button>
       </div>
