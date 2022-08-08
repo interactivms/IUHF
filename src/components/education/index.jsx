@@ -22,7 +22,7 @@ const index = () => {
       </div>
       <div className="courses">
         <h2> Explora las Especialidades</h2>
-        <div className="coursesWrapper">
+        <div className="coursesWrapper py-4">
           <div className="item">
             <img src="/img/computer.svg" />
             <div className="titles">
@@ -30,6 +30,11 @@ const index = () => {
               <p className="bottom">
                 Especialista de seguridad en redes y datos
               </p>
+              <small className="white">
+                Refuerza tus habilidades utilizando y aprendiendo de las
+                herramientas más efectivas para evitar ciberataques y fraudes
+                digitales
+              </small>
             </div>
           </div>
 
@@ -50,22 +55,21 @@ const index = () => {
           </div>
   */}
         </div>
-
+        <br />
         <div className="row mx-0">
           <div className="col-12">
             <h2> Explora nuestros cursos</h2>
 
-             
-            <div className="careers no-mobile">
+            <div className="careers no-mobile py-4">
               {careers.map((item, key) => (
                 <div className="item" key={key}>
                   <img src={item.icon} />
                   <p> {item.title}</p>
                 </div>
               ))}
-            </div>  
+            </div>
 
-           {/*
+            {/*
             <div className="row">
               <div className="col-12">
             <Carousel showDots={true} cols={1} loop={true}>
