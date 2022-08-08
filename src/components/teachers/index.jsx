@@ -62,12 +62,11 @@ const index = () => {
           </div>
           <div className="videoRight">
             <div className="title">
-              <p className="titleWithLine">Nuestro consejo directivo</p>
+              <p className="titleWithLine p-3">Nuestro consejo directivo</p>
             </div>
-            <p className="description">
+            <p className="description p-3 mx-0">
               Nuestros profesionistas son líderes de alto impacto en la
-              industria tecnológica de México y el mundo, preparados para
-              guiarte en las habilidades del futuro.
+              industria tecnológica de México y el mundo, preparados para guiarte en las habilidades del futuro.
             </p>
             <button className="knowMore"> Conoce Más</button>
           </div>

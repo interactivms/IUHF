@@ -7,12 +7,12 @@ const index = () => {
         <div className="h1Holder">
           <h1>Aprende las habilidades del futuro</h1>
         </div>
-        <div className="details">
+        <div className="details appears">
           <p>Carreras</p>
           <div className="separator">|</div>
-          <p>Cursos</p>
+          <p className="">Cursos</p>
           <div className="separator">|</div>
-          <p>Lideres</p>
+          <p className="">Lideres</p>
         </div>
         <div>
           <div className="metaCursos">

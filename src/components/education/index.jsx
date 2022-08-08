@@ -27,12 +27,13 @@ const index = () => {
             <img src="/img/computer.svg" />
             <div className="titles">
               <p className="top">Carrera de CiberSeguridad</p>
-              <p className="bottom">Especialista de seguridad en redes y datos</p>
+              <p className="bottom">
+                Especialista de seguridad en redes y datos
+              </p>
             </div>
           </div>
-  
 
-          
+          {/*
           <div className="item">
             <img src="/img/SDWAN.svg" />
             <div className="titles">
@@ -47,36 +48,41 @@ const index = () => {
               <p className="bottom">Administrador de red SD-WAN</p>
             </div>
           </div>
-
+  */}
         </div>
 
-  
-        <div className="courses ">
-          <h2> Explora nuestros cursos</h2>
-          <div className="careers no-mobile">
-            {careers.map((item, key) => (
-              <div className="item" key={key}>
-                <img src={item.icon} />
-                <p> {item.title}</p>
+        <div className="row mx-0">
+          <div className="col-12">
+            <h2> Explora nuestros cursos</h2>
+
+             
+            <div className="careers no-mobile">
+              {careers.map((item, key) => (
+                <div className="item" key={key}>
+                  <img src={item.icon} />
+                  <p> {item.title}</p>
+                </div>
+              ))}
+            </div>  
+
+           {/*
+            <div className="row">
+              <div className="col-12">
+            <Carousel showDots={true} cols={1} loop={true}>
+                  {careers.map((item, key) => (
+                    <Carousel.Item key={key}>
+                        <div className="py-3">
+                          <img src={item.icon} />
+                          <p> {item.title}</p>
+                        </div>
+                    </Carousel.Item>
+                  ))}
+                </Carousel>
               </div>
-            ))}
+            </div>
+
+            */}
           </div>
-
-          
-        <div className="careers mobile">
-        <Carousel  showDots={true} cols={1} loop={true}>
-          {careers.map((item, key) => (
-            <Carousel.Item key={key}>
-              <div className="careerItemContainer">
-              <div className="careerItem py-3">
-                <img src={item.icon} />
-                <p> {item.title}</p>
-              </div>
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-        </div>
         </div>
       </div>
     </div>
