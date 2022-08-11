@@ -3,13 +3,13 @@ import React, { useState } from "react";
 const index = () => {
   const [selected, setSelected] = useState();
   return (
-    <div className="talent">
-      <div className="leftSide p-5">
-        <p>Impulsa tu talento con:</p>
+    <div className="talent row">
+      <div className="col-12 leftSide col-md  p-5">
+        <p className="text-right white fontsize-3 fw-1000">Impulsa <br /> tu talento <br /> con:</p>
       </div>
-      <div className="rightside">
+      <div className="col-12 rightside col-md">
         <div className="buttonsWrapper">
-          <div className="row buttons">
+          <div className="row buttons py-2">
             <div className="col-3">
               <img src="/img/inmersive.svg" />
             </div>
@@ -32,7 +32,7 @@ const index = () => {
               </p>
             </div>
           </div>
-          <div className="row buttons">
+          <div className="row buttons py-2">
             <div className="col-3">
               <img src="/img/leaders.svg" />
             </div>
@@ -53,7 +53,7 @@ const index = () => {
               </p>
             </div>
           </div>
-          <div className="row buttons">
+          <div className="row buttons py-2">
             <div className="col-3">
               <img src="/img/opportunities.svg" />
             </div>

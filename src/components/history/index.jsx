@@ -7,7 +7,7 @@ const index = () => {
       <div className="row">
         <div className="leftSide">
           <h2>Nuestra historia</h2>
-          <p>
+          <p className="white">
             El Instituto Universitario de las Habilidades del Futuro surge de un
             proyecto catalizador integrado por la visión de dos líderes globales
             de la industria de TI en México.

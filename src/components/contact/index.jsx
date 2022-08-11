@@ -1,8 +1,8 @@
 import React from "react";
 
-const index = () => {
+const index = (props) => {
   return (
-    <div className="contact relative">
+    <div className={props.section === "other" ? "contact background-darkGray relative" : "contact bg-darkblue relative"}>
       <div className="row w-100 mx-0">
         <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
           <h2 className="white rem4">¡Contáctanos!</h2>

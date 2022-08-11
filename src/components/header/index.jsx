@@ -1,6 +1,13 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
 const index = () => {
+
+  const [currentWindow, setCurrentWindow] = useState(null)
+
+  useEffect(() => {
+    setCurrentWindow(window.location.pathname)
+  },  [])
+
   return (
     <nav className="menu-container">
       <input type="checkbox" aria-label="Toggle menu" />
@@ -9,22 +16,25 @@ const index = () => {
       <span></span>
 
       <a href="/" className="menu-logo">
-        <img src="/img/Recurso 5.svg" alt="IUHF logo" />
+        <img className="logo" src="/img/Recurso 5.svg" alt="IUHF logo" />
       </a>
 
       <div className="menu">
         <ul className="navMenu">
           <li>
-            <a href="#Education">EDUCACIÓN</a>
+            <a href={currentWindow === "/" ? "#Education" : "/#Education"}>EDUCACIÓN</a>
           </li>
           <li>
-            <a href="#Leaders">LÍDERES</a>
+            <a  href={currentWindow === "/" ? "#Leaders" : "/#Leaders"}>LÍDERES</a>
           </li>
+          {/*
+            <li>
+              <a href="#Blog">BLOG</a>
+            </li>
+          */}
+
           <li>
-            <a href="#Blog">BLOG</a>
-          </li>
-          <li>
-            <a href="#Contact">CONTACTO</a>
+            <a  href={currentWindow === "/" ? "#Contact" : "/#Contact"}>CONTACTO</a>
           </li>
         </ul>
       </div>

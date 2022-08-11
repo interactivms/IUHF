@@ -7,18 +7,18 @@ const index = () => {
         <div className="h1Holder">
           <h1>Aprende las habilidades del futuro</h1>
         </div>
-        <div className="details appears">
-          <p>Carreras</p>
+        <div className="details appears py-3">
+          <p className="mb-0"> <a href="#Education">Especialidades</a> </p>
           <div className="separator">|</div>
-          <p className="">Cursos</p>
+          <p className="mb-0"><a className="clickable" href="#Education">Cursos</a></p>
           <div className="separator">|</div>
-          <p className="">Lideres</p>
+          <p className="mb-0"><a className="clickable" href="#Teachers">Líderes</a></p>
         </div>
-        <div>
-          <div className="metaCursos">
-            <button>
-              <img src="/img/metacursos.svg" />
-            </button>
+        <div className="details d-flex align-items-center justify-content-center py-3">
+          <div>
+
+              <img className="w-100" src="/img/MetaCursos.svg" />
+ 
           </div>
         </div>
       </div>

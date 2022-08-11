@@ -20,14 +20,18 @@ export default function Home() {
         <Talent />
       </div>
       <div className="sectionSeparator">
-        <p>Nuestros Docentes</p>
+        <h2 className="white fontsize-3 py-2">Nuestros Docentes</h2>
       </div>
       <div id="Teachers">
         <OurTeachers />
       </div>
-      <div id="Incubator">
-        <Incubator />
-      </div>
+
+      {/*
+        <div id="Incubator">
+          <Incubator />
+        </div>
+      */}
+
       <div id="OurHistory">
         <History />
       </div>
