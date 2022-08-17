@@ -1,19 +1,37 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 const index = () => {
+
+  const futureRef = useRef();
+
+  useEffect(() => {
+    function checkPos () {
+      if(futureRef && futureRef.current){
+        if(window.pageYOffset >= futureRef.current.offsetTop){
+          futureRef.current.classList.add('appearAbilities')
+        }
+      }
+    }
+
+    if(futureRef && futureRef.current) {
+      window.addEventListener("scroll", checkPos)
+    }
+
+  },[]);
+
   return (
     <div className="future">
-      <div className="row mx-0">
-        <div className="col-sm-12 col-md-7 p-5 bg-gradient-light-reverse">
+      <div ref={futureRef} className="row mx-0">
+        <div className="col-sm-12 col-md-7 p-5 bg-gradient-light-reverse d-flex flex-align-items justify-content-center">
           <div className="d-flex flex-column bg-gradient-light abilities-padding white">
-          <h2 className="rem4">Top 5 <br /> <u>habilidades en <br /> demanda </u> para el 2025:</h2>
-          <br />
-          <small className="gray">
-            Fuente: Future of Jobs report 2020, World Economic Forum
-          </small>
+            <h2 className="rem4">Top 5 <br /> <u>habilidades en <br /> demanda </u> para el 2025:</h2>
+            <br />
+            <small className="gray">
+              Fuente: Future of Jobs report 2020, World Economic Forum
+            </small>
           </div>
         </div>
-        <div className="col-sm-12 col-md-5 bg-gradient-dark py-5">
+        <div className="col-sm-12 col-md-5 bg-gradient-dark py-5 ">
           <div className="row py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
@@ -279,8 +297,15 @@ const index = () => {
           <div className="row">
             <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">4. Especialista en Ciberseguridad</h2>
             <p className="white">- Resguardo de la integridad de los datos gestionados 
- en una corporación. <br /> - Reporte de incidentes de seguridad de la información
- </p>
+            en una corporación. <br /> - Reporte de incidentes de seguridad de la información
+            </p>
+          </div>
+          
+          <div className="row">
+            <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">5. Administrador de Redes</h2>
+            <p className="white">- Resolución de problemas relacionados con el Software y el
+            Hardware LAN/WAN.
+            </p>
           </div>
         </div>
         <div className="col-12 col-md-4 ">

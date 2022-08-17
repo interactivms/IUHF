@@ -15,7 +15,7 @@ a {
   color: white;
   text-decoration: none;
   transform: scale(1);
-  transition: 300ms all
+  transition: all 300ms ease
 }
 
 a:hover {
@@ -136,14 +136,35 @@ p {
   transform: scale(1.05) !important;
 }
 
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.appearAbilities div:nth-child(1) {
+  opacity: 0;
+  animation: 300ms appear forwards;
 }
+.appearAbilities div:nth-child(2) {
+  opacity: 0;
+  
+  animation: 300ms appear forwards;
+  animation-delay: 300ms;
+}
+.appearAbilities div:nth-child(3) {
+  opacity: 0;
+  
+  animation: 300ms appear forwards;
+  animation-delay: 600ms;
+}
+.appearAbilities div:nth-child(4) {
+  opacity: 0;
+  
+  animation: 300ms appear forwards;
+  animation-delay: 900ms;
+}
+.appearAbilities div:nth-child(5) {
+  opacity: 0;
+  
+  animation: 300ms appear forwards;
+  animation-delay: 1200ms;
+}
+
 .subTalent {
   font-size: 1.25rem !important;
   font-weight: normal;
@@ -245,11 +266,12 @@ u {
       }
     }
     .details {
-      width: 50%;
+      width: 80%;
       font-size: 2rem;
       display: flex;
       justify-content: space-around;
       align-items: center;
+      padding-left: 4rem;
       .separator {
         width: 5px;
         color: aqua;
@@ -1374,6 +1396,10 @@ input {
   transform: scaleY(1);
   animation: 300ms expand forwards;
 } 
+.transparent-blue-bg {
+  background-color: #3392e938;
+  border-color: #000;
+}
 
 .knowMore {
   width: fit-content;
@@ -1397,7 +1423,24 @@ input {
     #259177 100%
   ) !important;
 }
+.cathedratic {
 
+}
+.cathedraticLogo {
+  max-width: 350px;
+}
+.victorHugo {
+  background: url("/img/teachers/victorHugoCV.png");
+  background-size: cover;
+}
+.darioMedina {
+  background: url("/img/teachers/darioCV.png");
+  background-size: cover;
+}
+.MuiDialogContent-root {
+  padding: 0 !important;
+  max-width: 80vw !important;
+}
 .sd-wan {
   background: linear-gradient(
     90deg,

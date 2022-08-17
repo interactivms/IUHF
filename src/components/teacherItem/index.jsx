@@ -1,6 +1,6 @@
 import React from "react";
 
-const index = ({ name, desc, photo }) => {
+const index = ({ itemInfo, name, desc, photo, action, className }) => {
   return (
     <div className="teacherItem">
       <div className="leftSide">
@@ -15,7 +15,7 @@ const index = ({ name, desc, photo }) => {
       <div className="rightSide">
 
         <p className="desc">{desc}</p>{" "}
-        <button className="seeTeacherButton">Ver más </button>
+        <button className="seeTeacherButton" onClick={() => action(itemInfo)}>Ver más </button>
       </div>
     </div>
   );

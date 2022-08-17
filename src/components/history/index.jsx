@@ -20,7 +20,7 @@ const index = () => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/Q3Fg9MiSXBs"
+            src="https://player.vimeo.com/video/740487199?h=1051bb9e51"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

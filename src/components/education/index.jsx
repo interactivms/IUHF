@@ -48,7 +48,7 @@ const index = () => {
             <div className="item py-2 pointer clickable admin-aws" onClick={() => setSelected("administrador_aws")}>
               <img src="/img/SDWAN.svg" />
               <div className="titles py-3">
-                <p className="bottom">Administrador de la nube AWS</p>
+                <p className="bottom">Especialista de seguridad en hackeo ético y nube</p>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const index = () => {
             <div className="item py-2 pointer clickable sd-wan" onClick={() => setSelected("sd-wan")}>
               <img src="/img/CCNA.svg" />
               <div className="titles py-3">
-                <p className="bottom">Administrador de red <br /> SD-WAN</p>
+                <p className="bottom">Especialista de Monitoreo <br /> de seguridad y SD-WAN</p>
               </div>
             </div>
             </div>

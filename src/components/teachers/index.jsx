@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Carousel from "react-grid-carousel";
 import TeacherItem from "../teacherItem";
 import Link from "next/link";
+import Popup from "./teacherCVpopup";
+
 const index = () => {
   const [smallScreen, setSmallScreen] = React.useState(false);
   useEffect(() => {
@@ -10,30 +12,56 @@ const index = () => {
       setSmallScreen(true);
     }
   }, []);
+
+  const [selected, setSelected] = useState(null);
   const teachers = [
     {
       photo: "/img/Victor_Perfil.png",
       name: "Victor Hugo Lara Damas",
+      className: "victorHugo",
+      title:"Consultor Profesional en Tecnologías de Información",
       description:
         "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de renombre. Cuenta con más de 30 años de experiencia en el mundo de las TI.",
     },
     {
-      photo: "/img/teachers/luis.png",
+      photo: "/img/teachers/luisOlayo.png",
       name: "Luis Miguel Olayo Valles",
+      className: "victorHugo",
+      title:"Consultor Profesional en Tecnologías de Información",
       description:
         "Ingeniero en Electrónica, es líder de un Centro de Excelencia Académica integrado por más de 50 ingenieros. 15 años involucrado en el soporte a diversos ambientes de redes lo preceden .",
     },
     {
       //   photo: "http://picsum.photos/50/50",
-      photo: "/img/Dario.png",
+      photo: "/img/teachers/luis.png",
       name: "Luis Alfonso Ramírez Silva",
+      className: "darioMedina",
+      title:"Consultor Profesional en Tecnologías de Información",
       description:
         "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
     },
+    {
+      //   photo: "http://picsum.photos/50/50",
+      photo: "/img/Dario.png",
+      name: "Darío Medina",
+      className: "darioMedina",
+      title:"Consultor Profesional en Tecnologías de Información",
+      description:
+        "Consultor Profesional en Seguridad de Información, con más de diez años de experiencia, ha participado en proyectos críticos para clientes internacionales en diferentes industrias.",
+    }
   ];
+
+  const openPopup = (name) => {
+    setSelected(name)
+  }
+
+  const closeDialog = () => {
+    setSelected(null)
+  }
 
   return (
     <>
+      <Popup open={selected != null} name={selected?.name} title={selected?.title} description={selected?.description} className={selected?.className} handleClose={closeDialog} />
       <div className="teachers">
         <div className="row mx-0">
           <div className="col-12">
@@ -41,9 +69,12 @@ const index = () => {
               {teachers.map((item, key) => (
                 <Carousel.Item key={key}>
                   <TeacherItem
+                    itemInfo={item}
                     photo={item.photo}
                     name={item.name}
+                    className={item.className}
                     desc={item.description}
+                    action={openPopup}
                   />
                 </Carousel.Item>
               ))}
@@ -51,14 +82,14 @@ const index = () => {
           </div>
         </div>
 
-        <div className="row mx-0">
+        <div className="row mx-0 py-3">
           <div className="col-12">
             <div className="video">
               <div className="videoLeft">
                 <iframe
-                  width="560"
-                  height="315"
-                  src="https://player.vimeo.com/video/737168646?h=a622836f1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  width="750"
+                  height="600"
+                  src="https://player.vimeo.com/video/740487199?h=1051bb9e51"
                   frameborder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
                   allowfullscreen
@@ -74,7 +105,7 @@ const index = () => {
                   industria tecnológica de México y el mundo, preparados para
                   guiarte en las habilidades del futuro.
                 </p>
-                <button className="knowMore"> Conoce Más</button>
+                <br />
               </div>
             </div>
           </div>
