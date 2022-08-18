@@ -25,7 +25,7 @@ const index = () => {
             <a href={currentWindow === "/" ? "#Education" : "/#Education"}>EDUCACIÓN</a>
           </li>
           <li>
-            <a  href={currentWindow === "/" ? "#Leaders" : "/#Leaders"}>LÍDERES</a>
+            <a  href={currentWindow === "/" ? "#Teachers" : "/#Teachers"}>LÍDERES</a>
           </li>
           {/*
             <li>

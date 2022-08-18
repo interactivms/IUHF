@@ -98,7 +98,7 @@ const index = () => {
               </div>
               <div className="videoRight">
                 <div className="title">
-                  <p className="titleWithLine p-3">Nuestro consejo directivo</p>
+                  <p className="titleWithLine p-3">Nuestro personal docente y socios fundadores</p>
                 </div>
                 <p className="description p-3 mx-0">
                   Nuestros profesionistas son líderes de alto impacto en la

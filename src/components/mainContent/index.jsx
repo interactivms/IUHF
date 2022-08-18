@@ -17,7 +17,7 @@ const index = () => {
         <div className="details d-flex align-items-center justify-content-center py-3">
           <div className="row">
               <div className="col d-flex justify-content-center align-items-center">
-              <img className="w-80" src="/img/MetaCursos.svg" />
+              <img className="w-80" src="/img/MetaCursos.png" />
               </div>
               <div className="col p-3 transparent-blue-bg">
                 <p className="white">
