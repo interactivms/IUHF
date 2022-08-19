@@ -11,18 +11,18 @@ function especialidad() {
       <Header />
       <div className="vh-100 relative specialties-header">
         <div className="absolute header-text p-5">
-          <h2 className='fontsize-3 white line-inherit'>Especialidad <br /> <span className="header-text-background p-1 px-2">de seguridad</span><br /><span className="header-text-background p-1 px-2">en redes y datos</span></h2>
+          <h2 className='fontsize-3 fw-1000 white line-inherit'>Especialidad <br /> <span className="header-text-background p-1 px-2">de seguridad</span><br /><span className="header-text-background p-1 px-2">en redes y datos</span></h2>
           <br />
           <h3 className="white">
             <span className="font-light">
             Impartido por:
             </span> <br />
-            Ing. Victor Hugo Lara Darams <br />
+            Ing. Victor Hugo Lara Damas <br />
             Ing. Darío Medina
           </h3>
         </div>
       </div>
-      <div className="row mx-0 vh-100 background-darkGray">
+      <div className="row mx-0 vh-100 background-darkGray lion-BG">
         <div className="col-12 col-md-6 p-5 d-flex flex-column align-items-center justify-content-center">
           <h2 className="white bolder fw-1000">¿QUÉ VOY A <span className='darkblue'>APRENDER</span>?</h2>
           <br />
@@ -44,20 +44,20 @@ function especialidad() {
 
           <img className="icon" src="/img/Ciberseguridad.svg" alt="Ciber Seguridad" />
 
-          <p className="white px-5"><span className="darkblue">17 de septiembre:</span> Primera fecha de Inscripción
+          <p className="white px-5"><span className="darkblue">15 de Octubre:</span> Primera fecha de Inscripción
           <br />Costo: $27,900 mxn*</p>
 
-          <p className="white px-5"><span className="darkblue">24 de septiembre:</span> Segunda fecha de Inscripción
+          <p className="white px-5"><span className="darkblue">22 de Octubre:</span> Segunda fecha de Inscripción
           <br />Costo: $28,400 mxn*</p>
 
-          <p className="white px-5"><span className="darkblue">1 de octubre:</span> Tercera fecha de Inscripción
+          <p className="white px-5"><span className="darkblue">29 de Octubre:</span> Tercera fecha de Inscripción
           <br />Costo: $29,970 mxn*</p>
     
           <small className="white">*Precios sin IVA</small>
           <br />
           <h2 className="white fontsize-3 fw-1000">INICIO <span className='darkblue'>4 DE JUNIO DE 2022</span></h2>
         </div>
-        <div className="col-12 col-md-6 p-5 h-fit d-flex flex-column align-items-center justify-content-center">
+        <div className="col-12 col-md-6 p-5 h-fit">
           <h2 className="white fw-1000">NUESTROS <span className='darkblue'>CURSOS</span></h2>
 
           <img className="icon clickable pointer" src="/img/Ciberseguridad.svg" alt="Ciber Seguridad" onClick={() => setSelectedModule("ciberseguridad")}/>

@@ -22,13 +22,13 @@ function trayectoria() {
         <div className="row vh-60 py-3 px-3 mx-0 relative">
           <div className="col-12 d-flex align-items-center justify-content-center">
             <div className="h-fit">
-            <h2 className="white bolder fw-1000">EDUCACIÓN BASADA EN <span className='darkblue'>TENDENCIAS <br /> TECNOLÓGICAS</span> 2022</h2>
+            <h2 className="white bolder fontsize-3 fw-1000">EDUCACIÓN BASADA EN <span className='darkblue'>TENDENCIAS <br /> TECNOLÓGICAS</span> 2022</h2>
           <br />
           <p className="white">
             Nuestro objetivo es proveer a la comunidad capacitación en tecnologías de la información 
             de vanguardia y habilidades del futuro para satisfacer la creciente demanda de la industria 
             con personal capacitado y al mismo tiempo facilitar al personal capacitado a encontrar 
-            oportunidades laorales bien remuneradas y con amplias expectativas de crecimiento
+            oportunidades laborales bien remuneradas y con amplias expectativas de crecimiento.
           </p>
           <br />
           <div className="row">
@@ -36,7 +36,7 @@ function trayectoria() {
 
             </div>
             <div className="col-sm-11 col-md-4">
-            <h2 className="white bolder fw-1000">TOP EN <span className='darkblue'>TENDENCIAS</span></h2>
+            <h2 className="white bolder fontsize-3 fw-1000">TOP EN <span className='darkblue'>TENDENCIAS</span></h2>
             <small className="white text-right">Fuente: Gertner. Inc. 2021</small>
             </div>
           </div>

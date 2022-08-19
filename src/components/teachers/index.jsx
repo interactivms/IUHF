@@ -101,9 +101,11 @@ const index = () => {
                   <p className="titleWithLine p-3">Nuestro personal docente y socios fundadores</p>
                 </div>
                 <p className="description p-3 mx-0">
-                  Nuestros profesionistas son líderes de alto impacto en la
-                  industria tecnológica de México y el mundo, preparados para
-                  guiarte en las habilidades del futuro.
+                  Nuestros directivos y fundadores son
+                  líderes de alto impacto en la industria
+                  tecnológica de México y el mundo,
+                  preparados para guiarte en
+                  las habilidades del futuro.
                 </p>
                 <br />
               </div>
@@ -128,7 +130,7 @@ const index = () => {
                 </Link>
               </div>
             </div>
-            <p className="gray">Construye tu propio camino</p>
+            <p className="gray">Construye tu propio camino.</p>
           </div>
         </div>
       </div>

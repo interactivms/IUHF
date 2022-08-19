@@ -15,17 +15,47 @@ const index = () => {
     },
     { icon: "/img/bigData.svg", title: "Desarrollo y gestión de Big Data" },
   ];
+
+  const next = (e) => {
+    e.preventDefault();
+    switch (selected) {
+      case 'especialista_seguridad':
+        setSelected('administrador_aws')
+        break;
+      case 'administrador_aws':
+        setSelected('sd-wan')
+        break;
+      case 'sd-wan':
+        setSelected('especialista_seguridad')
+        break;
+    }
+  }
+
+  const prev = (e) => {
+    e.preventDefault();
+    switch (selected) {
+      case 'especialista_seguridad':
+        setSelected('sd-wan')
+        break;
+      case 'administrador_aws':
+        setSelected('especialista_seguridad')
+        break;
+      case 'sd-wan':
+        setSelected('administrador_aws')
+        break;
+    }
+  }
   return (
     <div className="education">
       <div className="wrapper">
         <h1>Educación</h1>
         <p>
           Cursos desarrollados por los expertos de la industria de la
-          tecnología. Cursos impartidos de manera fisica y en el metaverso
+          tecnología. Cursos impartidos de manera fisica y en el metaverso.
         </p>
       </div>
       <div className="courses">
-        <h2> Explora las Especialidades</h2>
+        <h2> Explora nuestras especialidades</h2>
 
         <div className="row py-2">
           <div id="Especialidades" className="col-12 col-md-4">
@@ -132,6 +162,13 @@ const index = () => {
             </div>
 
             */}
+          </div>
+
+          <div className="col-12">
+          <div className="w-100 d-flex justify-content-center align-items-center">
+              <img onClick={(e) => prev(e)} className="clickable-l pointer m-1" src="/img/arrowLeft.png" alt="" />
+              <img onClick={(e) => next(e)} className="clickable-l pointer m-1" src="/img/arrowRight.png" alt="" />
+            </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,8 @@ const index = () => {
   useEffect(() => {
     function checkPos () {
       if(futureRef && futureRef.current){
-        if(window.pageYOffset >= futureRef.current.offsetTop){
+        console.log(window.pageYOffset, futureRef.current.offsetTop)
+        if((window.pageYOffset + (window.innerHeight/2)) >= futureRef.current.offsetTop){
           futureRef.current.classList.add('appearAbilities')
         }
       }
@@ -21,7 +22,7 @@ const index = () => {
 
   return (
     <div className="future">
-      <div ref={futureRef} className="row mx-0">
+      <div  className="row mx-0">
         <div className="col-sm-12 col-md-7 p-5 bg-gradient-light-reverse d-flex flex-align-items justify-content-center">
           <div className="d-flex flex-column bg-gradient-light abilities-padding white">
             <h2 className="rem4">Top 5 <br /> <u>habilidades en <br /> demanda </u> para el 2025:</h2>
@@ -31,8 +32,8 @@ const index = () => {
             </small>
           </div>
         </div>
-        <div className="col-sm-12 col-md-5 bg-gradient-dark py-5 ">
-          <div className="row py-2 d-flex justify-content-center mx-0">
+        <div ref={futureRef} className="col-sm-12 col-md-5 bg-gradient-dark py-5 ">
+          <div className="row invisible py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -60,7 +61,7 @@ const index = () => {
               <h4 className="white">Pensamiento analítico e Innovación</h4>
             </div>
           </div>
-          <div className="row py-2 d-flex justify-content-center mx-0">
+          <div className="row invisible py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -150,7 +151,7 @@ const index = () => {
               </h4>
             </div>
           </div>
-          <div className="row py-2 d-flex justify-content-center mx-0">
+          <div className="row invisible py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -170,7 +171,7 @@ const index = () => {
               <h4 className="white">Liderazgo e influencia social</h4>
             </div>
           </div>
-          <div className="row py-2 d-flex justify-content-center mx-0">
+          <div className="row invisible py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -218,7 +219,7 @@ const index = () => {
               <h4 className="white">Uso de la tecnología, monitoreo y control</h4>
             </div>
           </div>
-          <div className="row py-2 d-flex justify-content-center mx-0">
+          <div className="row invisible py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -272,8 +273,15 @@ const index = () => {
           </div>
         </div>
       </div>
-      <div className="row pt-5 p1-3 mx-0 bg-darkblue">
+      <div className="row pt-5 p1-3 mx-0 bg-darkblue lion-BG bg-right">
         <div className="col-12 col-md-8">
+
+          <div className="row">
+            <div className="h2 white py-2 fontsize-3 fw-1000">
+              5 Empleos mejor rankeados
+            </div>
+          </div>
+          <br />
           <div className="row">
             <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">1. Ingeniero de Software</h2>
             <p className="white">- Programación, diseño y creación de aplicaciones.<br />

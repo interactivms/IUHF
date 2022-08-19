@@ -32,10 +32,7 @@ const index = () => {
         <div className={active ? "row expanded" : "row collapsed"}>
           <div className="col-12">
             <p className="white">
-              El Instituto Universitario de las Habilidades del Futuro surge de
-              un proyecto catalizador integrado por la visión de dos líderes
-              globales de la industria de TI en México. <br /> En cooperación
-              con especialistas experimentados que actualmente operan en
+              En cooperación con especialistas experimentados que actualmente operan en
               diferentes industrias, niveles de complejidad y distintos puntos
               geográficos, incorporamos y fomentamos el conocimiento de
               vanguardia tecnológica. <br /> Formamos capital humano en áreas de
