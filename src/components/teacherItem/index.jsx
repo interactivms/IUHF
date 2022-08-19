@@ -8,11 +8,13 @@ const index = ({ itemInfo, name, desc, photo, action, className }) => {
           <img draggable="false" src={photo} alt="photo" />
         </div>
         <div className="nameHolder">
-          <p className="pName white">{name}</p>
+          
         </div>
       </div>
 
       <div className="rightSide">
+
+        <p className="pName white">{name}</p>
 
         <p className="desc">{desc}</p>{" "}
 

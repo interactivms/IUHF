@@ -50,8 +50,9 @@ const index = () => {
       <div className="wrapper">
         <h1>Educación</h1>
         <p>
-          Cursos desarrollados por los expertos de la industria de la
-          tecnología. Cursos impartidos de manera fisica y en el metaverso.
+          Especialidades desarrolladas por los expertos
+          en la industria de la tecnología.
+          Cursos impartidos de manera física y en el metaverso.
         </p>
       </div>
       <div className="courses">
