@@ -7,7 +7,7 @@ const index = () => {
   useEffect(() => {
     setCurrentWindow(window.location.pathname)
   },  [])
-  
+
   return (
     <footer className="footer">
       <div className="logo">
@@ -16,10 +16,10 @@ const index = () => {
       <div className="socials">
         <div className="socialLinks">
           <a className="" href="#">
-            <img src="/img/socials/facebook.svg" />
+            <img src="/img/socials/Facebook.svg" />
           </a>
           <a className="" href="#">
-            <img src="/img/socials/instagram.svg" />
+            <img src="/img/socials/Instagram.svg" />
           </a>
           <a className="" href="#">
             <img src="/img/socials/linkedin.svg" />
