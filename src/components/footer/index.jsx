@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const index = () => {
+
+  const [currentWindow, setCurrentWindow] = useState(null)
+
+  useEffect(() => {
+    setCurrentWindow(window.location.pathname)
+  },  [])
+  
   return (
     <footer className="footer">
       <div className="logo">
@@ -8,13 +15,13 @@ const index = () => {
       </div>
       <div className="socials">
         <div className="socialLinks">
-          <a className="facebook" href="https://www.facebook.com">
+          <a className="" href="#">
             <img src="/img/socials/facebook.svg" />
           </a>
-          <a className="instagram" href="https://www.instagram.com">
+          <a className="" href="#">
             <img src="/img/socials/instagram.svg" />
           </a>
-          <a className="linkedin" href="https://www.linkedin.com">
+          <a className="" href="#">
             <img src="/img/socials/linkedin.svg" />
           </a>
         </div>
@@ -24,10 +31,10 @@ const index = () => {
       </div>
       <div className="footerLinks">
         <div className="links">
-          <a className="link">EDUCACIÓN</a>
-          <a className="link">LÍDERES</a>
-          <a className="link">BLOG</a>
-          <a className="link">CONTACTO</a>
+          <a className="link" href={currentWindow === "/" ? "#Education" : "/#Education"}>EDUCACIÓN</a>
+          <a className="link" href={currentWindow === "/" ? "#Teachers" : "/#Teachers"}>LÍDERES</a>
+          {/*<a className="link">BLOG</a>*/}
+          <a className="link" href={currentWindow === "/" ? "#Contact" : "/#Contact"}>CONTACTO</a>
         </div>
         <div className="secondLinks">
           <div className="links">

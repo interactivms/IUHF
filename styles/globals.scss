@@ -98,7 +98,7 @@ p {
   height: fit-content !important;
 }
 
-.invisible {
+.invis {
   opacity: 0;
 }
 
@@ -1372,7 +1372,7 @@ input {
     flex-direction: column;
     .bottom {
       font-size: 1rem;
-      font-weight: bold;
+      font-weight: 800;
       font-style: italic;
       text-align: start;
       width: 80%;

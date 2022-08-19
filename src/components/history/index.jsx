@@ -12,9 +12,7 @@ const index = () => {
             proyecto catalizador integrado por la visión de dos líderes globales
             de la industria de TI en México.
           </p>
-          <button onClick={() => setActive(!active)}>
-            {active ? "Esconder" : "Leer Más"}
-          </button>
+          <img className="w-fit pointer clickable" onClick={() => setActive(!active)} src={active ? "/img/esconder.png" : "/img/leerMas.png"} />
         </div>
         <div className="rightSide">
           <iframe

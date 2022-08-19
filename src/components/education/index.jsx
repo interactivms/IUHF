@@ -62,13 +62,13 @@ const index = () => {
             <div className={selected === "especialista_seguridad" ? "item py-2 pointer clickable" : "item py-2 pointer clickable"} onClick={() => setSelected("especialista_seguridad")}>
               <img src="/img/computer.svg" />
               <div className="titles py-3">
-                <p className="bottom">
+                <p className="bottom fw-1000">
                   Especialista de seguridad en redes y datos
                 </p>
 
                 {selected === "especialista_seguridad" && 
                   <Link href="especialidad">
-                    <button className="knowMore">Saber más</button>
+                    <img className="clickable pointer" src="/img/saberMas.png" />
                   </Link>
                 }
               </div>

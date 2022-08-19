@@ -64,9 +64,9 @@ function especialidad() {
           
           <div className={selectedModule === "ciberseguridad" ? "moduleInfo active" : "moduleInfo"}>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 1:</span> Introducción a la Seguridad de Información</p>
-            <p className="white px-5 mb-0"><span className="darkblue">Módulo 2:</span> Seguridad de Aplicaciones</p>
-            <p className="white px-5 mb-0"><span className="darkblue">Módulo 3:</span>  Pruebas de Penetración: Seguridad Ofensiva</p>
-            <p className="white px-5 mb-0"><span className="darkblue">Módulo 4:</span> Pruebas de Penetración: Seguridad Ofensiva</p>
+            <p className="white px-5 mb-0"><span className="darkblue">Módulo 2:</span> Seguridad de Aplicaciones: <br />Vulnerabilidades, explotación y remediación.</p>
+            <p className="white px-5 mb-0"><span className="darkblue">Módulo 3:</span> Pruebas de Penetración: Seguridad Ofensiva</p>
+            <p className="white px-5 mb-0"><span className="darkblue">Módulo 4:</span> Detección y Respuesta a Incidentes</p>
           </div>
           <br />
           <br />

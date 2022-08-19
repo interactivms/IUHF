@@ -15,7 +15,8 @@ const index = ({ itemInfo, name, desc, photo, action, className }) => {
       <div className="rightSide">
 
         <p className="desc">{desc}</p>{" "}
-        <button className="seeTeacherButton" onClick={() => action(itemInfo)}>Ver más </button>
+
+        <img onClick={() => action(itemInfo)} className="clickable pointer w-fit" src="/img/verMas.png" alt="" />
       </div>
     </div>
   );

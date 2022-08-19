@@ -33,7 +33,7 @@ const index = () => {
           </div>
         </div>
         <div ref={futureRef} className="col-sm-12 col-md-5 bg-gradient-dark py-5 ">
-          <div className="row invisible py-2 d-flex justify-content-center mx-0">
+          <div className="row invis py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -61,7 +61,7 @@ const index = () => {
               <h4 className="white">Pensamiento analítico e Innovación</h4>
             </div>
           </div>
-          <div className="row invisible py-2 d-flex justify-content-center mx-0">
+          <div className="row invis py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -151,7 +151,7 @@ const index = () => {
               </h4>
             </div>
           </div>
-          <div className="row invisible py-2 d-flex justify-content-center mx-0">
+          <div className="row invis py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -171,7 +171,7 @@ const index = () => {
               <h4 className="white">Liderazgo e influencia social</h4>
             </div>
           </div>
-          <div className="row invisible py-2 d-flex justify-content-center mx-0">
+          <div className="row invis py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
@@ -219,7 +219,7 @@ const index = () => {
               <h4 className="white">Uso de la tecnología, monitoreo y control</h4>
             </div>
           </div>
-          <div className="row invisible py-2 d-flex justify-content-center mx-0">
+          <div className="row invis py-2 d-flex justify-content-center mx-0">
             <div className="col-2">
               <svg
                 className="futureSvg"
