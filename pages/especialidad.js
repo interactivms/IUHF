@@ -18,7 +18,8 @@ function especialidad() {
             Impartido por:
             </span> <br />
             Ing. Victor Hugo Lara Damas <br />
-            Ing. Darío Medina
+            Ing. Darío Medina <br />
+            Luis Alfonso Ramírez Silva
           </h3>
         </div>
       </div>
