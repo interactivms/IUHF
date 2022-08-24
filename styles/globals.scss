@@ -1390,10 +1390,15 @@ input {
 .specialties-header {
   background-image: url('/img/Header_Especialidades.png');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .trajectory-header {
   background-image: url('/img/header_trayectoria.png');
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .trajectory_diagram {
@@ -1461,6 +1466,14 @@ input {
 }
 .cathedraticLogo {
   max-width: 350px;
+}
+.luisOlayo {
+  background: url("/img/teachers/luisOlayoCV.png");
+  background-size: cover;
+}
+.luisRamirez {
+  background: url("/img/teachers/luisRamirezCV.png");
+  background-size: cover;
 }
 .victorHugo {
   background: url("/img/teachers/victorHugoCV.png");

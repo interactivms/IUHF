@@ -1,9 +1,11 @@
 import Link from "next/link";
 import React, {useState} from "react";
 import Carousel from "react-grid-carousel";
+import Popup from './../teachers/popup';
 const index = () => {
 
   const [selected, setSelected] = useState("especialista_seguridad")
+  const [selectedCourse, setSelectedCourse] = useState(null)
 
   const careers = [
     { icon: "/img/cybersecurity.svg", title: "Ciber Seguridad" },
@@ -47,6 +49,14 @@ const index = () => {
   }
   return (
     <div className="education">
+      <Popup open={selectedCourse != null} handleClose={() => setSelectedCourse(null)} 
+      title={selectedCourse?.title}
+      teacher={selectedCourse?.teacher}
+      duration={selectedCourse?.duration}
+      horarios={selectedCourse?.horarios}
+      date={selectedCourse?.date}
+      inversion={selectedCourse?.inversion}
+      videoLink={selectedCourse?.videoLink} />
       <div className="wrapper">
         <h1>Educación</h1>
         <p>
@@ -108,13 +118,36 @@ const index = () => {
                     {selected === "especialista_seguridad" ? 
                       <div className="row">
                         <div className="col">
-                          <img className="w-100 pointer clickable" src="/img/Ciberseguridad.svg" />
+                          <img className="w-100 pointer clickable" src="/img/Ciberseguridad.svg" onClick={() => setSelectedCourse({
+                            title: 'C1. Introdución a la ciberseguridad',
+                            teacher: 'Ing. Dario Medina',
+                            duration: '16 horas divididas en 4 módulos',
+                            horarios: 'Sábado y Domingo',
+                            date: 'Inicio Noviembre 5, 2022',
+                            inversion: '$8,000 MXN más IVA',
+                            videoLink: 'https://player.vimeo.com/video/742447422?h=54be90894a'
+                          })} />
                         </div>
                         <div className="col">
-                          <img className="w-100 pointer clickable" src="/img/IP.svg" />
+                          <img className="w-100 pointer clickable" src="/img/IP.svg" onClick={() => setSelectedCourse({
+                            title: 'C2. Introducción a la red de datos IP',
+                            teacher: 'Ing. Luis Ramirez',
+                            duration: '16 horas divididas en 4 módulos',
+                            horarios: 'Sábado y Domingo',
+                            date: 'Inicio Noviembre 12, 2022',
+                            inversion: '$8,000 MXN más IVA'
+                          })} />
                         </div>
                         <div className="col">
-                          <img className="w-100 pointer clickable" src="/img/Pensamiento.svg" />
+                          <img className="w-100 pointer clickable" src="/img/Pensamiento.svg" onClick={() => setSelectedCourse({
+                            title: 'C3. Pensamiento crítico y análisis de datos',
+                            teacher: 'Ing. Victor Hugo Lara Damas',
+                            duration: '16 horas divididas en 9 módulos',
+                            horarios: 'Sábado y Domingo',
+                            date: 'Inicio Noviembre 19, 2022',
+                            inversion: '$8,000 MXN más IVA',
+                            videoLink: 'https://player.vimeo.com/video/742447463?h=6957e9ab02'
+                          })} />
                         </div>
                       </div>
                     : selected === "administrador_aws" ? 

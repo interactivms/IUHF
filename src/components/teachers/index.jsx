@@ -20,25 +20,30 @@ const index = () => {
       name: "Victor Hugo Lara Damas",
       className: "victorHugo",
       title:"Consultor Profesional en Tecnologías de Información",
+      popupDescription:
+        "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de renombre. Cuenta con más de 30 años de experiencia en el mundo de las TI.",
       description:
         "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de renombre. Cuenta con más de 30 años de experiencia en el mundo de las TI.",
     },
     {
-      photo: "/img/teachers/luisOlayo.png",
+      photo: "/img/teachers/luisOlayo.svg",
       name: "Luis Miguel Olayo Valles",
-      className: "victorHugo",
-      title:"Consultor Profesional en Tecnologías de Información",
+      className: "luisOlayo",
+      title:"Especialista en redes SD-WAN.",
+      popupDescription: 
+        "Ingeniero en electrónica de formación, con más de 15 años involucrado en el soporte a los más diversos ambientes de redes. \nEnfocado en el diseño, implementación y soporte deredes corporativas incluyendo diversas tecnologías como Routing, Switching, Firewalls, Balanceador SD-WAN, entre otras. \n A cargo de un centro de excelencia de más de 50 ingenieros en el que mediante mejores prácticas y con base en una dinamica de intercambio de conocimientos y sinergia se logran excelentes resultados en el soporte a clientes",
       description:
         "Ingeniero en Electrónica, es líder de un Centro de Excelencia Académica integrado por más de 50 ingenieros. 15 años involucrado en el soporte a diversos ambientes de redes lo preceden .",
     },
     {
       //   photo: "http://picsum.photos/50/50",
-      photo: "/img/teachers/luis.png",
+      photo: "/img/teachers/luis.svg",
       name: "Luis Alfonso Ramírez Silva",
-      className: "darioMedina",
-      title:"Consultor Profesional en Tecnologías de Información",
-      description:
-        "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
+      className: "luisRamirez",
+      title:"Profesional de tecnologías de la información en redes IP.",
+      popupDescription:
+      "Catorce años de experiencia administrando y soportando infraestructuras de red de voz y datos de manera agnostica, gestionando ambientes globales con soluciones e integraciones entre diferentes marcas. \nResponsable de equipos de soporte implementando proyectos y mejoras dentro de ambientes productivos de red.",
+      
     },
     {
       //   photo: "http://picsum.photos/50/50",
@@ -46,8 +51,10 @@ const index = () => {
       name: "Darío Medina",
       className: "darioMedina",
       title:"Consultor Profesional en Tecnologías de Información",
+      popupDescription:
+      "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
       description:
-        "Consultor Profesional en Seguridad de Información, con más de diez años de experiencia, ha participado en proyectos críticos para clientes internacionales en diferentes industrias.",
+      "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
     }
   ];
 

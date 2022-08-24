@@ -48,6 +48,8 @@ function teacherCVpopup(props) {
           <h2 className="white header-text-background fontsize-3 w-75">{props.name}</h2>
           <br />
           <p className="white">{props.title}</p>
+          <br />
+          
           </div>
         </div>
       </DialogContent>

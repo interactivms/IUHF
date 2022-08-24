@@ -4,6 +4,7 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import { Button } from "@material-ui/core";
+import Link from "next/link";
 
 const useStyles = makeStyles((theme) => ({
   dialog: {
@@ -36,21 +37,42 @@ function popup(props) {
             className="w-100"
               width="550"
               height="350"
-              src="https://player.vimeo.com/video/737168646?h=a622836f1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              src={props.videoLink}
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
               title="Nuestros Líderes IUHF"
             ></iframe>
             <br />
-            <div className="row w-100">
+            <div className="lion-BG">
+            <div className="row w-100 mx-0 p-3">
+              <div className="col-12">
+              <h2 className="blue">{props.title}</h2>
+              </div>
+            </div>
+            <div className="row w-100 mx-0 p-3">
+            <div className="col-12">
+            <p className="white"><span className="blue">Docente: </span>{props.teacher}</p>
+            <br />
+            <p className="white"><span className="blue">Duración: </span>{props.duration}</p>
+            <br />
+            <p className="white"><span className="blue">Horarios: </span>{props.horarios}</p>
+            <br />
+            <p className="white"><span className="blue">Fechas: </span>{props.date}</p>
+            <br />
+            <p className="white"><span className="blue">Inversión sin certificación: </span>{props.inversion}</p>
+            
+            
+            </div>
+            </div>
+            <div className="row mx-0">
+              <div className="col d-flex justify-content-center">
+                <Link  href="/especialidad"><p className="p-2 pointer white bg-gradient-light br-15">Consultar especialidad</p></Link>
+              </div>
 
             </div>
+            </div>
       </DialogContent>
-
-      <DialogActions>
-        <Button className="white" onClick={() => props.handleClose()}> <span className="white">Cerrar</span> </Button>
-      </DialogActions>
     </Dialog>
   );
 }
