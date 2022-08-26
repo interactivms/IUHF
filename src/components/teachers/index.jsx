@@ -20,10 +20,10 @@ const index = () => {
       name: "Victor Hugo Lara Damas",
       className: "victorHugo",
       title:"Consultor Profesional en Tecnologías de Información",
-      popupDescription:
-        "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de renombre. Cuenta con más de 30 años de experiencia en el mundo de las TI.",
       description:
-        "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de renombre. Cuenta con más de 30 años de experiencia en el mundo de las TI.",
+        "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de renombre.",
+      popupDescription:
+        "Consultor Profesional en Tecnologías de Información, y apasionado por la tecnología, ha impartido seminarios y diplomados en instituciones académicas de talla internacional. Cuenta con más de 30 años de experiencia en el mundo de las TI.",
     },
     {
       photo: "/img/teachers/luisOlayo.svg",
@@ -43,7 +43,7 @@ const index = () => {
       title:"Profesional de tecnologías de la información en redes IP.",
       popupDescription:
       "Catorce años de experiencia administrando y soportando infraestructuras de red de voz y datos de manera agnostica, gestionando ambientes globales con soluciones e integraciones entre diferentes marcas. \nResponsable de equipos de soporte implementando proyectos y mejoras dentro de ambientes productivos de red.",
-      
+      description:"Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico."
     },
     {
       //   photo: "http://picsum.photos/50/50",
@@ -52,9 +52,9 @@ const index = () => {
       className: "darioMedina",
       title:"Consultor Profesional en Tecnologías de Información",
       popupDescription:
-      "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
+      "Consultor Profesional en Seguridad de Información. Con más de diez años de experiencia en la industria, ha participado en proyectos de ciberseguridad para clientes internacionales, así como en el entrenamiento de nuevos talentos y en el diseño de soluciones tecnológicas de ciberseguridad.",
       description:
-      "Ingeniero en Tecnologías de la Información y Comunicación área, redes y sistemas, cuenta con más de 9 años gestionando infraestructuras de red de voz y 5 años en soporte de incidencias de dispositivos para empresas de impacto tecnológico.",
+      "Consultor Profesional en Seguridad de Información, con más de diez años de experiencia, ha participado en proyectos críticos para clientes internacionales en diferentes industrias. ",
     }
   ];
 
@@ -68,7 +68,7 @@ const index = () => {
 
   return (
     <>
-      <Popup open={selected != null} name={selected?.name} title={selected?.title} description={selected?.description} className={selected?.className} handleClose={closeDialog} />
+      <Popup open={selected != null} name={selected?.name} title={selected?.title} description={selected?.popupDescription} className={selected?.className} handleClose={closeDialog} />
       <div className="teachers">
         <div className="row mx-0">
           <div className="col-12">

@@ -1494,6 +1494,25 @@ input {
     #A383C9 100%
   ) !important; 
 }
+
+.popupInput {
+  border: none;
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+.popupButton {
+  border-radius: 10px;
+  border: none;
+  background: #023a53;
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.border-none {
+  border: none;
+}
 button {
   transform: scale(1);
   transition: 300ms all;

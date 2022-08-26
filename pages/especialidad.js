@@ -6,6 +6,7 @@ import Contact from "../src/components/contact";
 function especialidad() {
 
   const [selectedModule, setSelectedModule] = useState("ciberseguridad")
+
   return (
     <div className='main'>
       <Header />
@@ -19,7 +20,7 @@ function especialidad() {
             </span> <br />
             Ing. Victor Hugo Lara Damas <br />
             Ing. Darío Medina <br />
-            Luis Alfonso Ramírez Silva
+            Ing. Luis Alfonso Ramírez Silva
           </h3>
         </div>
       </div>

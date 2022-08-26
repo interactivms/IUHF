@@ -28,7 +28,7 @@ const index = (props) => {
             <textarea className="p-3 my-1" rows={6}  type="text" placeholder="Mensaje" />
           </div>
           <div className="row mx-0">
-            <button className="w-fit my-1 py-2 px-5 br-15 mx-auto white contact-button">
+            <button className="w-fit my-2 py-2 px-5 br-15 mx-auto white contact-button">
               Enviar
             </button>
           </div>

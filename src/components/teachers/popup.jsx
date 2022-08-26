@@ -44,7 +44,7 @@ function popup(props) {
               title="Nuestros Líderes IUHF"
             ></iframe>
             <br />
-            <div className="lion-BG">
+            <div className="lion-BG pb-5">
             <div className="row w-100 mx-0 p-3">
               <div className="col-12">
               <h2 className="blue">{props.title}</h2>
@@ -69,7 +69,41 @@ function popup(props) {
               <div className="col d-flex justify-content-center">
                 <Link  href="/especialidad"><p className="p-2 pointer white bg-gradient-light br-15">Consultar especialidad</p></Link>
               </div>
+            </div>
+            <br />
+            
+            <div className="row mx-0">
+              <div className="col-12">
+                <form action="">
+                  <div className="row p-1">
+                    <div className="col-12 d-flex justify-content-center">
+                    <h2 className="white">¡Inscríbete ya!</h2>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="row p-1">
+                    <div className="col-12 d-flex justify-content-center">
+                      <input className="popupInput" placeholder="Nombre" type="text" />
+                    </div>
+                  </div>
+                  <div className="row p-1">
+                    <div className="col-12 d-flex justify-content-center">
+                      <input className="popupInput" placeholder="Correo" type="text" />
+                    </div>
+                  </div>
+                  <div className="row p-1">
+                    <div className="col-12 d-flex justify-content-center">
+                      <textarea className="p-3" defaultValue="Me gustaría inscribirme al curso..." type="text" />
+                    </div>
+                  </div>
 
+                  <div className="row p-1">
+                    <div className="col-12 d-flex justify-content-center">
+                      <button className="p-2 pointer white bg-gradient-light br-15 border-none">Enviar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
             </div>
       </DialogContent>
