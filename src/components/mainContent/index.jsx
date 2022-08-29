@@ -18,12 +18,12 @@ const index = () => {
         </div>
         <div className="details d-flex align-items-center justify-content-center py-3">
           <div className="row">
-              <div className="col d-flex justify-content-center align-items-center">
+              <div className="col-12 col-md d-flex justify-content-center align-items-center">
                 <img onClick={() => setOpen(!open)} className="w-80 pointer clickable" src="/img/MetaCursos.png" />
               </div>
               {
                 open &&
-                <div className={open ? "col p-3 transparent-blue-bg appear active" : "col p-3 transparent-blue-bg appear"}>
+                <div className={open ? "col-12 col-md p-3 transparent-blue-bg appear active" : "col-12 col-md p-3 transparent-blue-bg appear"}>
                   <p className="white">
                     Definición de META-CURSOS: Impartir cursos de manera síncrona entre el mundo físico y el metaverso. Obteniendo experiencias multidimensionales de uso y aplicación.
                   </p>
