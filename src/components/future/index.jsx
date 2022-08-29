@@ -277,7 +277,7 @@ const index = () => {
 
           <div className="row">
             <div className="h2 white py-2 fontsize-3 fw-1000">
-              5 Empleos mejor rankeados
+              5 profesionistas más demandados
             </div>
           </div>
           <br />
@@ -295,23 +295,23 @@ const index = () => {
           </div>
 
           <div className="row">
-            <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">3. Cientifico de datos</h2>
+            <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">3. Científico de datos</h2>
             <p className="white">- Administración y analisis de grandes cantidades 
  de datos con machine learning, Inteligencia Artificial
- y modelos productivos.</p>
+ y modelos productivos</p>
           </div>
 
           <div className="row">
             <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">4. Especialista en Ciberseguridad</h2>
             <p className="white">- Resguardo de la integridad de los datos gestionados 
-            en una corporación. <br /> - Reporte de incidentes de seguridad de la información
+            en una corporación <br /> - Reporte de incidentes de seguridad de la información
             </p>
           </div>
           
           <div className="row">
             <h2 className="white bg-gradient-light w-fit py-2 px-3 br-25">5. Administrador de Redes</h2>
             <p className="white">- Resolución de problemas relacionados con el Software y el
-            Hardware LAN/WAN.
+            Hardware LAN/WAN
             </p>
           </div>
         </div>

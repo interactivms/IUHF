@@ -22,7 +22,7 @@ function trayectoria() {
         <div className="row vh-60 py-3 px-3 mx-0 relative">
           <div className="col-12 d-flex align-items-center justify-content-center">
             <div className="h-fit">
-            <h2 className="white bolder fontsize-3 fw-1000">EDUCACIÓN BASADA EN <span className='darkblue'>TENDENCIAS <br /> TECNOLÓGICAS</span> 2022</h2>
+            <h2 className="white bolder fontsize-3 fw-1000">EDUCACIÓN BASADA EN <span className='darkblue'>TENDENCIAS <br /> TECNOLÓGICAS</span> DEL 2022</h2>
           <br />
           <p className="white">
             Nuestro objetivo es proveer a la comunidad capacitación en tecnologías de la información 

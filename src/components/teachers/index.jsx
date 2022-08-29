@@ -99,7 +99,7 @@ const index = () => {
             <div className="video">
               <div className="videoLeft">
                 <iframe
-                  className="h-fit"
+                  className="h-fit-mobile"
                   width="750"
                   height="600"
                   src="https://player.vimeo.com/video/740487199?h=1051bb9e51"

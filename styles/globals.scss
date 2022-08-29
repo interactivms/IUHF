@@ -43,9 +43,7 @@ p {
 .pointer {
   cursor: pointer;
 }
-.h-fit {
-  height: fit-content;
-}
+
 .icon {
   min-height: 130px;
   max-height: 150px;
@@ -1285,6 +1283,10 @@ input {
   animation: 400ms appear forwards
 }
 @media screen and (max-width: 479px) {
+  .h-fit-mobile {
+    height: fit-content;
+  }
+
   .MuiDialog-paper {
     max-height: 85vh !important;
   }
@@ -1492,26 +1494,28 @@ input {
     #259177 100%
   ) !important;
 }
-.cathedratic {
 
-}
 .cathedraticLogo {
   max-width: 350px;
 }
 .luisOlayo {
   background: url("/img/teachers/luisOlayoCV.png");
+  background-position: center;
   background-size: cover;
 }
 .luisRamirez {
   background: url("/img/teachers/luisRamirezCV.png");
+  background-position: center;
   background-size: cover;
 }
 .victorHugo {
   background: url("/img/teachers/victorHugoCV.png");
+  background-position: center;
   background-size: cover;
 }
 .darioMedina {
   background: url("/img/teachers/darioCV.png");
+  background-position: center;
   background-size: cover;
 }
 .MuiDialogContent-root {

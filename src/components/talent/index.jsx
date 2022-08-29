@@ -26,9 +26,7 @@ const index = () => {
                   selected === "ecosystem" ? "subTalent active" : "subTalent"
                 }
               >
-                A diferencia del aprendizaje tradicional, hacemos posible la
-                interacción de nuestros alumnos y profesores por medio del
-                metaverso.
+                IUHF te ofrece una experiencia innovadora al ser posible interactuar con tus docentes y compañeros a través del metaverso.
               </p>
             </div>
           </div>
@@ -48,8 +46,7 @@ const index = () => {
                   selected === "leaders" ? "subTalent active" : "subTalent"
                 }
               >
-                Obtén el contacto y aprendizaje directamente de los
-                profesionales más reconocidos en la industria de la tecnología.
+                Aprenderás directamente de los especialistas más reconocidos en la industria de la tecnología.
               </p>
             </div>
           </div>
@@ -69,9 +66,7 @@ const index = () => {
                   selected === "opportunities" ? "subTalent active" : "subTalent"
                 }
               >
-                Gracias al esfuerzo de nuestros líderes, facilitamos la 
-                creación de los cursos conforme a la demanda actual 
-                del mercado y facilitamos las oportunidades laborales.
+                Con IUHF, es muy fácil conectar con tu futuro empleo gracias a nuestros cursos desarrollados especialmente para cubrir la demanda del mercado actual y futura.
               </p>
             </div>
           </div>

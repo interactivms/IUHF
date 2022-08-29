@@ -8,7 +8,7 @@ const index = (props) => {
           <h2 className="white rem4">¡Contáctanos!</h2>
           <br />
           <h2 className="white fw-light text-center rem4">
-            Con gusto te atenderemos.
+            Complementa tu trayectoria profesional.
           </h2>
           <br />
           <br />
