@@ -1285,6 +1285,9 @@ input {
   animation: 400ms appear forwards
 }
 @media screen and (max-width: 479px) {
+  .MuiDialog-paper {
+    max-height: 85vh !important;
+  }
   .header-text {
     width: 100%;
   }
