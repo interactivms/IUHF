@@ -16,7 +16,7 @@ const index = () => {
       <span></span>
 
       <a href="/" className="menu-logo">
-        <img className="logo" src="/img/Recurso 5.svg" alt="IUHF logo" />
+        <img className="logo" src="/img/Recurso5.svg" alt="IUHF logo" />
       </a>
 
       <div className="menu">

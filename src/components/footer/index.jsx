@@ -11,7 +11,7 @@ const index = () => {
   return (
     <footer className="footer">
       <div className="logo">
-        <img src="/img/Recurso 5.svg"></img>
+        <img src="/img/Recurso5.svg"></img>
       </div>
       <div className="socials">
         <div className="socialLinks">

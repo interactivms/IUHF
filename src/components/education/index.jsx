@@ -135,7 +135,8 @@ const index = () => {
                             duration: '16 horas divididas en 4 módulos',
                             horarios: 'Sábado y Domingo',
                             date: 'Inicio Noviembre 12, 2022',
-                            inversion: '$8,000 MXN más IVA'
+                            inversion: '$8,000 MXN más IVA',
+                            videoLink: 'https://player.vimeo.com/video/743131924?h=556d0db829'
                           })} />
                         </div>
                         <div className="col">
