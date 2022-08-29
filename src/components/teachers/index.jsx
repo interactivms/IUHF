@@ -17,6 +17,7 @@ const index = () => {
   const teachers = [
     {
       photo: "/img/Victor_Perfil.png",
+      responsiveImage: 'img/teachers/victorHugoResponsive.png',
       name: "Victor Hugo Lara Damas",
       className: "victorHugo",
       title:"Consultor Profesional en Tecnologías de Información",
@@ -27,17 +28,19 @@ const index = () => {
     },
     {
       photo: "/img/teachers/luisOlayo.svg",
+      responsiveImage: 'img/teachers/luisMiguelOlayoResponsive.png',
       name: "Luis Miguel Olayo Valles",
       className: "luisOlayo",
       title:"Especialista en redes SD-WAN.",
       popupDescription: 
-        "Ingeniero en electrónica de formación, con más de 15 años involucrado en el soporte a los más diversos ambientes de redes. \nEnfocado en el diseño, implementación y soporte deredes corporativas incluyendo diversas tecnologías como Routing, Switching, Firewalls, Balanceador SD-WAN, entre otras. \n A cargo de un centro de excelencia de más de 50 ingenieros en el que mediante mejores prácticas y con base en una dinamica de intercambio de conocimientos y sinergia se logran excelentes resultados en el soporte a clientes",
+        "Ingeniero en electrónica de formación, con más de 15 años involucrado en el soporte a los más diversos ambientes de redes. \nEnfocado en el diseño, implementación y soporte deredes corporativas incluyendo diversas tecnologías como Routing, Switching, Firewalls, Balanceador SD-WAN, entre otras.",
       description:
         "Ingeniero en Electrónica, es líder de un Centro de Excelencia Académica integrado por más de 50 ingenieros. 15 años involucrado en el soporte a diversos ambientes de redes lo preceden .",
     },
     {
       //   photo: "http://picsum.photos/50/50",
       photo: "/img/teachers/luis.svg",
+      responsiveImage: 'img/teachers/luisAlfonsoResponsive.png',
       name: "Luis Alfonso Ramírez Silva",
       className: "luisRamirez",
       title:"Profesional de tecnologías de la información en redes IP.",
@@ -48,13 +51,14 @@ const index = () => {
     {
       //   photo: "http://picsum.photos/50/50",
       photo: "/img/Dario.png",
+      responsiveImage: 'img/teachers/darioMedinaResponsive.png',
       name: "Darío Medina",
       className: "darioMedina",
       title:"Consultor Profesional en Tecnologías de Información",
       popupDescription:
       "Consultor Profesional en Seguridad de Información. Con más de diez años de experiencia en la industria, ha participado en proyectos de ciberseguridad para clientes internacionales, así como en el entrenamiento de nuevos talentos y en el diseño de soluciones tecnológicas de ciberseguridad.",
       description:
-      "Consultor Profesional en Seguridad de Información, con más de diez años de experiencia, ha participado en proyectos críticos para clientes internacionales en diferentes industrias. ",
+      "Consultor Profesional en Seguridad de Información, con más de diez años de experiencia, ha participado en proyectos críticos para clientes internacionales en diferentes industrias.",
     }
   ];
 
@@ -68,7 +72,7 @@ const index = () => {
 
   return (
     <>
-      <Popup open={selected != null} name={selected?.name} title={selected?.title} description={selected?.popupDescription} className={selected?.className} handleClose={closeDialog} />
+      <Popup open={selected != null} name={selected?.name} title={selected?.title} description={selected?.popupDescription} className={selected?.className} responsiveImage={selected?.responsiveImage} handleClose={closeDialog} />
       <div className="teachers">
         <div className="row mx-0">
           <div className="col-12">
@@ -82,6 +86,7 @@ const index = () => {
                     className={item.className}
                     desc={item.description}
                     action={openPopup}
+                    
                   />
                 </Carousel.Item>
               ))}
@@ -94,12 +99,13 @@ const index = () => {
             <div className="video">
               <div className="videoLeft">
                 <iframe
+                  className="h-fit"
                   width="750"
                   height="600"
                   src="https://player.vimeo.com/video/740487199?h=1051bb9e51"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                   title="Nuestros Líderes IUHF"
                 ></iframe>
               </div>
@@ -120,7 +126,7 @@ const index = () => {
           </div>
         </div>
         <br />
-        <div className="row w-100 vh-60 px-3 mx-0">
+        <div className="row w-100 vh-50 px-3 mx-0">
           <div className="col-12 col-md-8">
             <h2 className="white fontsize-3">
               Tu nueva trayectoria <br /> educativa

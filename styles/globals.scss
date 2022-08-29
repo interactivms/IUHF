@@ -855,8 +855,21 @@ input {
     }
   }
 }
+.o-visible {
+  overflow: visible;
+}
+
 @media screen and (max-width: 992px) {
 
+  .item img {
+    max-width: 70% !important;
+  }
+  .mobileNotActive {
+    display: none !important;
+  }
+  .mobileActive {
+    display: block;
+  }
   .logo {
     transform: scale(1.2);
   }
@@ -918,7 +931,7 @@ input {
     }
   }
   .teachers {
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 0.5rem;
     .teacherItem {
       width: 100%;
       flex-direction: column;
@@ -1207,7 +1220,15 @@ input {
 .fw-light {
   font-weight: light;
 }
+
+.teacherImg {
+  min-width: 199px; 
+}
 @media screen and (max-width: 500px) {
+  .height-auto {
+    height: auto;
+  }
+
   .menu-logo {
     padding: 0;
   }
@@ -1394,9 +1415,14 @@ input {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
+.specialties-header-responsive {
+  background-image: url('/img/Header_Especialidades_Responsive.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .trajectory-header {
   background-image: url('/img/header_trayectoria.png');
   background-position: center;

@@ -7,7 +7,6 @@ const index = () => {
   useEffect(() => {
     function checkPos () {
       if(futureRef && futureRef.current){
-        console.log(window.pageYOffset, futureRef.current.offsetTop)
         if((window.pageYOffset + (window.innerHeight/2)) >= futureRef.current.offsetTop){
           futureRef.current.classList.add('appearAbilities')
         }

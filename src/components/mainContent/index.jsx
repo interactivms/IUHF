@@ -19,7 +19,7 @@ const index = () => {
         <div className="details d-flex align-items-center justify-content-center py-3">
           <div className="row">
               <div className="col-12 col-md d-flex justify-content-center align-items-center">
-                <img onClick={() => setOpen(!open)} className="w-80 pointer clickable" src="/img/MetaCursos.png" />
+                <img onClick={() => setOpen(!open)} className="w-80 pointer clickable mw-100" src="/img/MetaCursos.png" />
               </div>
               {
                 open &&

@@ -4,8 +4,8 @@ const index = ({ itemInfo, name, desc, photo, action, className }) => {
   return (
     <div className="teacherItem">
       <div className="leftSide">
-        <div className="">
-          <img draggable="false" src={photo} alt="photo" />
+        <div className="w-fit">
+          <img className="teacherImg" draggable="false" src={photo} alt="photo" />
         </div>
         <div className="nameHolder">
           

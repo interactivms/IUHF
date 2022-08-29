@@ -34,11 +34,11 @@ function popup(props) {
     >
       <DialogContent classes={{ noPadding: classes.noPadding }}>
             <iframe
-            className="w-100"
+              className="w-100 height-auto"
               width="550"
               height="350"
               src={props.videoLink}
-              frameborder="0"
+              frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
               title="Nuestros Líderes IUHF"

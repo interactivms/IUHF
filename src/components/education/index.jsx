@@ -2,6 +2,10 @@ import Link from "next/link";
 import React, {useState} from "react";
 import Carousel from "react-grid-carousel";
 import Popup from './../teachers/popup';
+import EspecialistaSeguridad from "./especialistaSeguridad";
+import HackeoEtico from "./hackeoEtico";
+import MonitoreoSeguridad from "./monitoreoSeguridad";
+
 const index = () => {
 
   const [selected, setSelected] = useState("especialista_seguridad")
@@ -58,11 +62,10 @@ const index = () => {
       inversion={selectedCourse?.inversion}
       videoLink={selectedCourse?.videoLink} />
       <div className="wrapper">
-        <h1>Educación</h1>
+        <h1 className="fw-1000">Educación</h1>
         <p>
           Especialidades desarrolladas por los expertos
           en la industria de la tecnología.
-          Cursos impartidos de manera física y en el metaverso.
         </p>
       </div>
       <div className="courses">
@@ -70,7 +73,7 @@ const index = () => {
 
         <div className="row py-2">
           <div id="Especialidades" className="col-12 col-md-4">
-            <div className={selected === "especialista_seguridad" ? "item py-2 pointer clickable" : "item py-2 pointer clickable"} onClick={() => setSelected("especialista_seguridad")}>
+            <div className={selected === "especialista_seguridad" ? "item py-2 pointer clickable mobileActive" : "item py-2 pointer clickable mobileNotActive"} onClick={() => setSelected("especialista_seguridad")}>
               <img src="/img/computer.svg" />
               <div className="titles py-3">
                 <p className="bottom fw-1000">
@@ -85,7 +88,7 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className={selected === "administrador_aws" ? "col-12 col-md-4 mobileActive" : "col-12 col-md-4 mobileNotActive"}>
             <div className="item py-2 pointer clickable admin-aws" onClick={() => setSelected("administrador_aws")}>
               <img src="/img/SDWAN.svg" />
               <div className="titles py-3">
@@ -93,7 +96,7 @@ const index = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className={selected === "sd-wan" ? "col-12 col-md-4 mobileActive" : "col-12 col-md-4 mobileNotActive"}>
             <div className="item py-2 pointer clickable sd-wan" onClick={() => setSelected("sd-wan")}>
               <img src="/img/CCNA.svg" />
               <div className="titles py-3">
@@ -103,6 +106,13 @@ const index = () => {
             </div>
           </div>
 
+
+        <div className="col-12 mobile">
+          <div className="w-100 d-flex justify-content-center align-items-center">
+            <img onClick={(e) => prev(e)} className="clickable-l pointer m-1" src="/img/arrowLeft.png" alt="" />
+            <img onClick={(e) => next(e)} className="clickable-l pointer m-1" src="/img/arrowRight.png" alt="" />
+          </div>
+        </div>
         <br />
         <div className="row mx-0">
           <div className="col-12">
@@ -199,11 +209,28 @@ const index = () => {
             */}
           </div>
 
-          <div className="col-12">
-          <div className="w-100 d-flex justify-content-center align-items-center">
+          <div className="col-12 no-mobile">
+            <div className="w-100 d-flex justify-content-center align-items-center">
               <img onClick={(e) => prev(e)} className="clickable-l pointer m-1" src="/img/arrowLeft.png" alt="" />
               <img onClick={(e) => next(e)} className="clickable-l pointer m-1" src="/img/arrowRight.png" alt="" />
             </div>
+          </div>
+
+          <div className="col-12 mobile">
+            {
+              selected === "especialista_seguridad" &&
+              <EspecialistaSeguridad setSelected={setSelectedCourse} />
+            }
+
+            {
+              selected === "administrador_aws" &&
+              <HackeoEtico setSelected={setSelectedCourse} />
+            }
+
+            {
+              selected === "sd-wan" &&
+              <MonitoreoSeguridad setSelected={setSelectedCourse} />
+            }
           </div>
         </div>
       </div>

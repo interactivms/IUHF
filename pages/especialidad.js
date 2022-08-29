@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Header from "../src/components/header";
 import Footer from "../src/components/footer";
 import Contact from "../src/components/contact";
@@ -6,11 +6,18 @@ import Contact from "../src/components/contact";
 function especialidad() {
 
   const [selectedModule, setSelectedModule] = useState("ciberseguridad")
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    if(window.innerWidth <= 450){
+      setIsMobile(true)
+    }
+  },[])
 
   return (
     <div className='main'>
       <Header />
-      <div className="vh-100 relative specialties-header">
+      <div className={isMobile ? "vh-100 relative specialties-header-responsive" : "vh-100 relative specialties-header"}>
         <div className="absolute header-text p-5">
           <h2 className='fontsize-3 fw-1000 white line-inherit'>Especialidad <br /> <span className="header-text-background p-1 px-2">de seguridad</span><br /><span className="header-text-background p-1 px-2">en redes y datos</span></h2>
           <br />
@@ -47,17 +54,17 @@ function especialidad() {
           <img className="icon" src="/img/Ciberseguridad.svg" alt="Ciber Seguridad" />
 
           <p className="white px-5"><span className="darkblue">15 de Octubre:</span> Primera fecha de Inscripción
-          <br />Costo: $27,900 mxn*</p>
+          <br />Costo: $7,600 mxn*</p>
 
           <p className="white px-5"><span className="darkblue">22 de Octubre:</span> Segunda fecha de Inscripción
-          <br />Costo: $28,400 mxn*</p>
+          <br />Costo: $8,000 mxn*</p>
 
           <p className="white px-5"><span className="darkblue">29 de Octubre:</span> Tercera fecha de Inscripción
-          <br />Costo: $29,970 mxn*</p>
+          <br />Costo: $8,400 mxn*</p>
     
           <small className="white">*Precios sin IVA</small>
           <br />
-          <h2 className="white fontsize-3 fw-1000">INICIO <span className='darkblue'>4 DE JUNIO DE 2022</span></h2>
+          <h2 className="white fontsize-3 fw-1000">INICIO <span className='darkblue'>5 DE NOVIEMBRE DE 2022</span></h2>
         </div>
         <div className="col-12 col-md-6 p-5 h-fit">
           <h2 className="white fw-1000">NUESTROS <span className='darkblue'>CURSOS</span></h2>
