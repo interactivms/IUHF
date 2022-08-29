@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "800px",
     height: "fit-content",
     width: "1500px",
-    top: "5vh",
+    top: "1vh",
     backgroundColor: "#1C1D21",
     padding: 0
   },
