@@ -18,7 +18,7 @@ const index = () => {
     {
       photo: "/img/Victor_Perfil.png",
       responsiveImage: 'img/teachers/victorHugoResponsive.png',
-      name: "Victor Hugo Lara Damas",
+      name: "Ing. Victor Hugo Lara Damas",
       className: "victorHugo",
       title:"Consultor Profesional en Tecnologías de Información",
       description:
@@ -29,7 +29,7 @@ const index = () => {
     {
       photo: "/img/teachers/luisOlayo.svg",
       responsiveImage: 'img/teachers/luisMiguelOlayoResponsive.png',
-      name: "Luis Miguel Olayo Valles",
+      name: "Ing. Luis Miguel Olayo Valles",
       className: "luisOlayo",
       title:"Especialista en redes SD-WAN.",
       popupDescription: 
@@ -41,7 +41,7 @@ const index = () => {
       //   photo: "http://picsum.photos/50/50",
       photo: "/img/teachers/luis.svg",
       responsiveImage: 'img/teachers/luisAlfonsoResponsive.png',
-      name: "Luis Alfonso Ramírez Silva",
+      name: "Ing. Luis Alfonso Ramírez Silva",
       className: "luisRamirez",
       title:"Profesional de tecnologías de la información en redes IP.",
       popupDescription:
@@ -52,7 +52,7 @@ const index = () => {
       //   photo: "http://picsum.photos/50/50",
       photo: "/img/Dario.png",
       responsiveImage: 'img/teachers/darioMedinaResponsive.png',
-      name: "Darío Medina",
+      name: "Ing. Darío Medina",
       className: "darioMedina",
       title:"Consultor Profesional en Tecnologías de Información",
       popupDescription:
@@ -111,11 +111,11 @@ const index = () => {
               </div>
               <div className="videoRight">
                 <div className="title">
-                  <p className="titleWithLine p-3">Nuestro personal docente y socios fundadores</p>
+                  <p className="titleWithLine p-3">Nuestros catedráticos</p>
                 </div>
                 <p className="description p-3 mx-0">
-                  Nuestros directivos y fundadores son
-                  líderes de alto impacto en la industria
+                  El instituto universitario de las habilidades del futuro 
+                  está conformado por líderes de alto impacto en la industria
                   tecnológica de México y el mundo,
                   preparados para guiarte en
                   las habilidades del futuro.

@@ -36,8 +36,8 @@ export default function Home() {
         <History />
       </div>
       <div id="Future">
-        <Future />
-      </div>
+          <Future page="index" />
+        </div>
       <div id="Contact">
         <Contact />
       </div>

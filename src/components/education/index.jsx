@@ -64,12 +64,12 @@ const index = () => {
       <div className="wrapper">
         <h1 className="fw-1000">Educación</h1>
         <p>
-          Especialidades desarrolladas por los expertos
+          Especialidades desarrolladas por expertos
           en la industria de la tecnología.
         </p>
       </div>
       <div className="courses">
-        <h2> Explora nuestras especialidades</h2>
+        <h2>Conoce nuestras especialidades</h2>
 
         <div className="row py-2">
           <div id="Especialidades" className="col-12 col-md-4">
@@ -116,7 +116,7 @@ const index = () => {
         <br />
         <div className="row mx-0">
           <div className="col-12">
-            <h2> Explora nuestros cursos</h2>
+            <h2>Temario</h2>
 
             <div className="w-100 no-mobile py-4">
               {
@@ -129,10 +129,10 @@ const index = () => {
                       <div className="row">
                         <div className="col">
                           <img className="w-100 pointer clickable" src="/img/Ciberseguridad.svg" onClick={() => setSelectedCourse({
-                            title: 'C1. Introdución a la ciberseguridad',
+                            title: 'T1. Introdución a la ciberseguridad',
                             teacher: 'Ing. Dario Medina',
-                            duration: '16 horas divididas en 4 módulos',
-                            horarios: 'Sábado y Domingo',
+                            duration: '24 horas divididas en 4 módulos',
+                            horarios: 'Sábados y Domingos 8am a 5pm',
                             date: 'Inicio Noviembre 5, 2022',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/742447422?h=54be90894a'
@@ -140,10 +140,10 @@ const index = () => {
                         </div>
                         <div className="col">
                           <img className="w-100 pointer clickable" src="/img/IP.svg" onClick={() => setSelectedCourse({
-                            title: 'C2. Introducción a la red de datos IP',
+                            title: 'T2. Introducción a la red de datos IP',
                             teacher: 'Ing. Luis Ramirez',
-                            duration: '16 horas divididas en 4 módulos',
-                            horarios: 'Sábado y Domingo',
+                            duration: '24 horas divididas en 4 módulos',
+                            horarios: 'Sábados y Domingos 8am a 5pm',
                             date: 'Inicio Noviembre 12, 2022',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/743131924?h=556d0db829'
@@ -151,10 +151,10 @@ const index = () => {
                         </div>
                         <div className="col">
                           <img className="w-100 pointer clickable" src="/img/Pensamiento.svg" onClick={() => setSelectedCourse({
-                            title: 'C3. Pensamiento crítico y análisis de datos',
+                            title: 'T3. Pensamiento crítico y análisis de datos',
                             teacher: 'Ing. Victor Hugo Lara Damas',
-                            duration: '16 horas divididas en 9 módulos',
-                            horarios: 'Sábado y Domingo',
+                            duration: '24 horas divididas en 9 módulos',
+                            horarios: 'Sábados y Domingos 8am a 5pm',
                             date: 'Inicio Noviembre 19, 2022',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/742447463?h=6957e9ab02'

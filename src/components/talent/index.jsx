@@ -39,7 +39,7 @@ const index = () => {
                 className="talentSectionButton"
                 onClick={() => setSelected("leaders")}
               >
-                Líderes empresariales
+                Experiencia de clase mundial
               </p>
               <p
                 className={
@@ -59,7 +59,7 @@ const index = () => {
                 className="talentSectionButton"
                 onClick={() => setSelected("opportunities")}
               >
-                Oportunidades laborales
+                Acceso a oportunidades laborales
               </p>
               <p
                 className={

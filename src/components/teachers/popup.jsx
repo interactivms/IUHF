@@ -59,8 +59,6 @@ function popup(props) {
             <p className="white"><span className="blue">Horarios: </span>{props.horarios}</p>
             <br />
             <p className="white"><span className="blue">Fechas: </span>{props.date}</p>
-            <br />
-            <p className="white"><span className="blue">Inversión sin certificación: </span>{props.inversion}</p>
             
             
             </div>
@@ -72,6 +70,7 @@ function popup(props) {
             </div>
             <br />
             
+            {/*
             <div className="row mx-0">
               <div className="col-12">
                 <form action="">
@@ -105,6 +104,7 @@ function popup(props) {
                 </form>
               </div>
             </div>
+             */}
             </div>
       </DialogContent>
     </Dialog>
