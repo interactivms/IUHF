@@ -49,19 +49,65 @@ function especialidad() {
 
           <br />
 
-          <h2 className="white bolder fw-1000">FECHAS <span className='darkblue'>DE INSCRIPCIÓN</span></h2>
+          <h2 className="darkblue px-5 bolder fw-1000 w-100">INVERSIÓN</h2>
+          <h2 className="white px-5 bolder fw-1000 w-100">$16,800 MXN</h2>
 
-          <img className="icon" src="/img/Ciberseguridad.svg" alt="Ciber Seguridad" />
+          <h2 className="darkblue px-5 bolder fw-1000 w-100">PLANES <br /> DE FINANCIAMIENTO</h2>
 
-          <p className="white px-5"><span className="darkblue">15 de Octubre:</span> Primera fecha de Inscripción
-          <br />Costo: $7,600 mxn*</p>
+          <p className="darkblue px-5 fw-1000 w-100">1 SOLO PAGO (11% DE DESCUENTO)</p>
 
-          <p className="white px-5"><span className="darkblue">22 de Octubre:</span> Segunda fecha de Inscripción
-          <br />Costo: $8,000 mxn*</p>
+          <div className="row w-100">
+            <div className="col">
+              <p className="white fw-1000 text-center">
+                (ANTES DEL 15 DE OCTUBRE)
+              </p>
+            </div>
+            <div className="col"><p className="white fw-1000 text-center">
+            $14,900 MXN</p></div>
+          </div>
 
-          <p className="white px-5"><span className="darkblue">29 de Octubre:</span> Tercera fecha de Inscripción
-          <br />Costo: $8,400 mxn*</p>
+          <p className="darkblue px-5 fw-1000 w-100">3 PAGOS</p>
     
+          <div className="row w-100">
+            <div className="col d-flex">
+              <p className="white fw-1000 text-center">
+                PRIMER PAGO (ANTES DEL 15 DE OCTUBRE)
+              </p>
+            </div>
+            <div className="col"><p className="white fw-1000 text-center">
+            $5,600 MXN</p></div>
+          </div>
+
+          <div className="row w-100">
+            <div className="col">
+              <p className="white fw-1000 text-center">
+                SEGUNDO PAGO (ANTES DEL 29 DE OCTUBRE)
+              </p>
+            </div>
+            <div className="col"><p className="white fw-1000 text-center">
+            $5,600 MXN</p></div>
+          </div>
+
+          <div className="row w-100">
+            <div className="col">
+              <p className="white fw-1000 text-center">
+                TERCER PAGO (ANTES DEL 12 DE NOVIEMBRE)
+              </p>
+            </div>
+            <div className="col"><p className="white fw-1000 text-center">
+            $5,600 MXN</p>
+            </div>
+          </div>
+          
+          <div className="row w-100">
+            <div className="col">
+              <p className="white fw-1000">
+              </p>
+            </div>
+            <div className="col"><p className="white fw-1000 text-center">
+            $16,800 MXN</p>
+            </div>
+          </div>
           <small className="white">*Precios sin IVA</small>
           <br />
           <h2 className="white fontsize-3 fw-1000">INICIO <span className='darkblue'>5 DE NOVIEMBRE DE 2022</span></h2>

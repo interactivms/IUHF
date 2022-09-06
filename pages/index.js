@@ -20,7 +20,7 @@ export default function Home() {
         <Talent />
       </div>
       <div className="sectionSeparator">
-        <h2 className="white fontsize-3 py-2">Nuestros Docentes</h2>
+        <h2 className="white fontsize-3 py-2">Catedráticos</h2>
       </div>
       <div id="Teachers">
         <OurTeachers />

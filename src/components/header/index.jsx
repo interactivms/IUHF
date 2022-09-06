@@ -31,7 +31,7 @@ const index = () => {
           */}
 
           <li>
-            <a  href={currentWindow === "/" ? "#Contact" : "/#Contact"}>CONTACTO</a>
+            <a  href={currentWindow === "/" ? "#Contact" : "/#Contact"}>INSCRÍBETE</a>
           </li>
         </ul>
       </div>

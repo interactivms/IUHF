@@ -12,7 +12,7 @@ const index = () => {
         <div className="details appears py-3">
           <h2 className="mb-0 fontsize-3"> <a href="#Education">Especialidades</a> </h2>
           <div className="separator">|</div>
-          <h2 className="mb-0 fontsize-3"><a className="clickable" href="#Education">Cursos</a></h2>
+          <h2 className="mb-0 fontsize-3"><a className="clickable" href="#Teachers">Catedráticos</a></h2>
         </div>
         <div className="details d-flex align-items-center justify-content-center py-3">
           <div className="row">
