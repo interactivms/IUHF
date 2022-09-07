@@ -60,7 +60,7 @@ function trayectoria() {
         </div>
         <br />
         <div className="col-12">
-          <img src="/img/diagrama_trayectoria.g" alt="" />
+          <img className="w-100 " src="/img/diagrama_trayectoria.png" alt="" />
         </div>
         <div className="row vh-60 py-3 px-3 mx-0 relative">
           <div className="col-12 d-flex align-items-center justify-content-center">

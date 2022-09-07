@@ -14,7 +14,7 @@ export default function Home() {
       <div className="row mx-0">
           <iframe className="w-100 p-0 videoBanner mobileNotActive" src="https://player.vimeo.com/video/746943912?h=35382f53a1&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
           </iframe>
-          <iframe className="w-100 p-0 videoBannerMobile mobileActive" src="https://player.vimeo.com/video/746943748?h=0b9b804721&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+          <iframe className="w-100 p-0 videoBannerMobile mobile" src="https://player.vimeo.com/video/746943748?h=0b9b804721&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
           </iframe>
           <script src="https://player.vimeo.com/api/player.js%22%3E"></script>
         </div>
