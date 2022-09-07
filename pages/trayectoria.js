@@ -54,8 +54,13 @@ function trayectoria() {
             </div>
           </div>
         </div>
+        <div className="col-12 px-5">
+          <h2 className="white bolder fontsize-3 fw-1000">Tendencias tecnológicas <span className='darkblue'>estratégicas del futuro</span></h2>
+          <small className="white text-right">Fuente: Gertner. Inc. 2022</small>
+        </div>
+        <br />
         <div className="col-12">
-          <img src="/img/diagrama_trayectoria.svg" alt="" />
+          <img src="/img/diagrama_trayectoria.g" alt="" />
         </div>
         <div className="row vh-60 py-3 px-3 mx-0 relative">
           <div className="col-12 d-flex align-items-center justify-content-center">
@@ -68,16 +73,6 @@ function trayectoria() {
             con personal capacitado y al mismo tiempo facilitar al personal, el encontrar 
             oportunidades laborales bien remuneradas y con amplias expectativas de crecimiento.
           </p>
-          <br />
-          <div className="row">
-            <div className="col-sm-1 col-md-8">
-
-            </div>
-            <div className="col-sm-11 col-md-4">
-            <h2 className="white bolder fontsize-3 fw-1000">Tendencias tecnológicas <span className='darkblue'>estratégicas del futuro</span></h2>
-            <small className="white text-right">Fuente: Gertner. Inc. 2022</small>
-            </div>
-          </div>
             </div>
           </div>
         </div>

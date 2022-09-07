@@ -33,6 +33,13 @@ p {
   font-size: 1.25rem;
 }
 
+.videoBanner {
+  height: clamp(300px, 38vw, 720px);
+}
+
+.videoBannerMobile {
+  height: clamp(250px, 45vw, 720px);
+}
 .text-right {
   text-align: right;
 }
@@ -61,6 +68,19 @@ p {
 
 .fontsize-4 {
   font-size: 3.9rem;
+}
+@media (min-width:901px) and (max-width: 1350px) {
+  .fontsize-4 {
+    font-size: 2.5rem;
+  }
+
+  .fontsize-3 {
+    font-size: 2.4rem;
+  }
+    
+  .fontsize-2 {
+    font-size: 0.75rem;
+  }
 }
 @media (max-width: 900px) {
 
@@ -673,7 +693,6 @@ u {
 }
 .history {
   width: 100%;
-  padding: 1.5rem 3rem;
   background: url("/img/ourHistoryBackground.svg");
   background-size: cover;
   .leftSide {
@@ -1097,7 +1116,6 @@ input {
   .history {
     flex-direction: column;
     background-image: none;
-    padding: 1.5rem 1rem;
     background-color: #182765;
     .leftSide {
       width: 100%;

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-
+import Contact from "../contact";
 const index = () => {
   const [active, setActive] = useState(false);
   return (
     <div className="history">
-      <div className="row">
+      <div className="row px-5">
         <div className="leftSide">
           <h2>Nuestra historia</h2>
           <p className="white">
@@ -23,14 +23,18 @@ const index = () => {
           <iframe
             width="560"
             height="315"
-            src="https://player.vimeo.com/video/740487199?h=1051bb9e51"
+            src="https://player.vimeo.com/video/747097526?h=9aeedb086c"
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>
       </div>  
+      <div className="row mx-0 px-0">
+      <div className="px-0" id="Contact">
+          <Contact history={true} />
+        </div>
+      </div>
     </div>
   );
 };

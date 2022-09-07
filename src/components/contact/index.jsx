@@ -2,10 +2,10 @@ import React from "react";
 
 const index = (props) => {
   return (
-    <div className={props.section === "other" ? "contact background-darkGray relative" : "contact bg-darkblue relative"}>
+    <div className={props.section === "other" ? "contact background-darkGray relative" : props.history ? "contact relative" : "contact bg-darkblue relative"}>
       <div className="row w-100 mx-0">
         <div className="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-          <h2 className="white rem4">¡Contáctanos!</h2>
+          <h2 className="white rem4">¡Inscríbete!</h2>
           <br />
           <h2 className="white fw-light text-center rem4">
             Complementa tu trayectoria profesional.

@@ -143,7 +143,7 @@ const index = () => {
                 </Link>
               </div>
             </div>
-            <p className="gray">Construye tu propio camino.</p>
+            <p className="gray py-2">Construye tu propio camino.</p>
           </div>
         </div>
       </div>

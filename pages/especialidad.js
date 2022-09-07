@@ -110,14 +110,14 @@ function especialidad() {
           </div>
           <small className="white">*Precios sin IVA</small>
           <br />
-          <h2 className="white fontsize-3 fw-1000">INICIO <span className='darkblue'>5 DE NOVIEMBRE DE 2022</span></h2>
+          <h2 className="white fontsize-3 fw-1000">INICIO <span className='darkblue'>15 DE OCTUBRE DE 2022</span></h2>
         </div>
         <div className="col-12 col-md-6 p-5 h-fit">
-          <h2 className="white fw-1000">NUESTROS <span className='darkblue'>CURSOS</span></h2>
+          <h2 className="white fw-1000">TEMARIO</h2>
 
           <img className="icon clickable pointer" src="/img/Ciberseguridad.svg" alt="Ciber Seguridad" onClick={() => setSelectedModule("ciberseguridad")}/>
           
-          <div className={selectedModule === "ciberseguridad" ? "moduleInfo active" : "moduleInfo"}>
+          <div className="moduleInfo active">
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 1:</span> Introducción a la Seguridad de Información</p>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 2:</span> Seguridad de Aplicaciones: <br />Vulnerabilidades, explotación y remediación.</p>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 3:</span> Pruebas de Penetración: Seguridad Ofensiva</p>
@@ -126,7 +126,7 @@ function especialidad() {
           <br />
           <br />
           <img className="icon clickable pointer" src="/img/IP.svg" alt="Ciber Seguridad" onClick={() => setSelectedModule("ip")} />
-          <div className={selectedModule === "ip" ? "moduleInfo active" : "moduleInfo"}>
+          <div className="moduleInfo active">
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 1:</span> Construyendo una red simple</p>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 2:</span> Estableciendo conexión con la red</p>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 3:</span> Manejo de la seguridad de red en dispositivos</p>
@@ -136,7 +136,7 @@ function especialidad() {
           <br />
           <br />
           <img className="icon clickable pointer" src="/img/Pensamiento.svg" alt="Ciber Seguridad" onClick={() => setSelectedModule("pensamiento")} />
-          <div className={selectedModule === "pensamiento" ? "moduleInfo active" : "moduleInfo"}>
+          <div className="moduleInfo active">
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 1:</span> Iniciamos</p>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 2:</span> Análisis de Negocio</p>
             <p className="white px-5 mb-0"><span className="darkblue">Módulo 3:</span> Fundamentos</p>

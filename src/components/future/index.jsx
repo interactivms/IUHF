@@ -278,7 +278,8 @@ const index = (props) => {
         <div className="row pt-5 p1-3 mx-0 bg-darkblue lion-BG bg-right">
         <div className="col-12 col-md-8">
 
-          <div className="row">
+              {/**
+               *           <div className="row">
             <div className="h2 white py-2 fontsize-3 fw-1000">
               5 profesionistas más demandados
             </div>
@@ -317,12 +318,13 @@ const index = (props) => {
             Hardware LAN/WAN
             </p>
           </div>
+               */}
         </div>
-        <div className="col-12 col-md-4 ">
-          <h2 className="white rem4 text-end">
+        <div className="col-12 ">
+          <h2 className="white rem4 text-center">
             Sal del promedio,
           </h2>
-          <h2 className="blue rem4 text-end">
+          <h2 className="blue rem4 text-center">
             proyecta tu futuro...
           </h2>
         </div>
