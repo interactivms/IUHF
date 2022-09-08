@@ -129,8 +129,8 @@ const index = () => {
                       <div className="row">
                         <div className="col">
                           <img className="w-100 pointer clickable" src="/img/Ciberseguridad.svg" onClick={() => setSelectedCourse({
-                            title: 'T1. Introdución a la ciberseguridad',
-                            teacher: 'Ing. Dario Medina',
+                            title: 'T1. Introducción a la ciberseguridad',
+                            teacher: 'Ing. Darío Medina',
                             duration: '24 horas divididas en 4 módulos',
                             horarios: 'Sábados y Domingos 8am a 5pm',
                             date: 'Inicio 15 de Octubre del 2022',
@@ -155,7 +155,7 @@ const index = () => {
                             teacher: 'Ing. Victor Hugo Lara Damas',
                             duration: '24 horas divididas en 9 módulos',
                             horarios: 'Sábados y Domingos 8am a 5pm',
-                            date: 'Inicio 29 de Ocutbre del 2022',
+                            date: 'Inicio 29 de Octubre del 2022',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/742447463?h=6957e9ab02'
                           })} />

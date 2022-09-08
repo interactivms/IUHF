@@ -32,9 +32,9 @@ const index = () => {
       <div className="footerLinks">
         <div className="links">
           <a className="link" href={currentWindow === "/" ? "#Education" : "/#Education"}>EDUCACIÓN</a>
-          <a className="link" href={currentWindow === "/" ? "#Teachers" : "/#Teachers"}>LÍDERES</a>
+          <a className="link" href={currentWindow === "/" ? "#Teachers" : "/#Teachers"}>CATEDRÁTICOS</a>
           {/*<a className="link">BLOG</a>*/}
-          <a className="link" href={currentWindow === "/" ? "#Contact" : "/#Contact"}>CONTACTO</a>
+          <a className="link" href={currentWindow === "/" ? "#Contact" : "/#Contact"}>INSCRÍBETE</a>
         </div>
         <div className="secondLinks">
           <div className="links">

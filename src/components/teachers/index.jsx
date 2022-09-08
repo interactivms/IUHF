@@ -33,7 +33,7 @@ const index = () => {
       className: "luisOlayo",
       title:"Especialista en redes SD-WAN.",
       popupDescription: 
-        "Ingeniero en electrónica de formación, con más de 15 años involucrado en el soporte a los más diversos ambientes de redes. \nEnfocado en el diseño, implementación y soporte deredes corporativas incluyendo diversas tecnologías como Routing, Switching, Firewalls, Balanceador SD-WAN, entre otras.",
+        "Ingeniero en electrónica de formación, con más de 15 años involucrado en el soporte a los más diversos ambientes de redes. \nEnfocado en el diseño, implementación y soporte de redes corporativas incluyendo diversas tecnologías como Routing, Switching, Firewalls, Balanceador SD-WAN, entre otras.",
       description:
         "Ingeniero en Electrónica, es líder de un Centro de Excelencia Académica integrado por más de 50 ingenieros. 15 años involucrado en el soporte a diversos ambientes de redes lo preceden .",
     },
