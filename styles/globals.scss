@@ -697,7 +697,7 @@ u {
   background-size: cover;
   .leftSide {
     width: 50%;
-    padding: 2rem;
+    padding: 1rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -878,8 +878,12 @@ input {
 
 @media screen and (max-width: 992px) {
 
+  .talentSectionButton {
+      font-size: 0.9rem
+  }
+
   .item img {
-    max-width: 70% !important;
+    max-width: 50% !important;
   }
   .mobileNotActive {
     display: none !important;
@@ -1131,7 +1135,6 @@ input {
       width: 100%;
       iframe {
         max-width: 100%;
-        margin: 2rem;
       }
     }
   }
@@ -1154,7 +1157,7 @@ input {
           width: 100%;
           .titles {
             .bottom {
-              font-size: 1rem;
+              font-size: 0.6rem;
             }
           }
         }

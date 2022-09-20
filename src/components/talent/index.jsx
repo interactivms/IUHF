@@ -36,10 +36,16 @@ const index = () => {
             </div>
             <div className="col-9">
               <p
-                className="talentSectionButton"
+                className="talentSectionButton no-mobile"
                 onClick={() => setSelected("leaders")}
               >
                 Experiencia de clase mundial
+              </p>
+              <p
+                className="talentSectionButton mobile"
+                onClick={() => setSelected("leaders")}
+              >
+                Líderes Empresariales
               </p>
               <p
                 className={
@@ -56,10 +62,16 @@ const index = () => {
             </div>
             <div className="col-9">
               <p
-                className="talentSectionButton"
+                className="talentSectionButton no-mobile"
                 onClick={() => setSelected("opportunities")}
               >
                 Acceso a oportunidades laborales
+              </p>
+              <p
+                className="talentSectionButton mobile"
+                onClick={() => setSelected("opportunities")}
+              >
+                Oportunidades laborales
               </p>
               <p
                 className={

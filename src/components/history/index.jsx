@@ -7,7 +7,12 @@ const index = () => {
       <div className="row px-5">
         <div className="leftSide">
           <h2>Nuestra historia</h2>
-          <p className="white">
+          <p className="white mobile">
+          El Instituto Universitario de las Habilidades del Futuro surge de un
+            proyecto catalizador integrado por la visión de dos líderes globales
+            de la industria de TI en México.
+          </p>
+          <p className="white no-mobile">
             El Instituto Universitario de las Habilidades del Futuro surge de un
             proyecto catalizador integrado por la visión de dos líderes globales
             de la industria de TI en México.<br />
@@ -22,9 +27,9 @@ const index = () => {
         <div className="rightSide">
           <iframe
             width="560"
-            height="315"
+            height="250"
             src="https://player.vimeo.com/video/747097526?h=9aeedb086c"
-            title="YouTube video player"
+            title="Nuestra Historia"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>

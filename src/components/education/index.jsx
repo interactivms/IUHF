@@ -72,11 +72,11 @@ const index = () => {
         <h2>Conoce nuestras especialidades</h2>
 
         <div className="row py-2">
-          <div id="Especialidades" className="col-12 col-md-4">
+          <div id="Especialidades" className="col-12 col-md-4 px-0">
             <div className={selected === "especialista_seguridad" ? "item py-2 pointer clickable mobileActive" : "item py-2 pointer clickable mobileNotActive"} onClick={() => setSelected("especialista_seguridad")}>
               <img src="/img/computer.svg" />
-              <div className="titles py-3">
-                <p className="bottom fw-1000">
+              <div className="titles py-3 px-0">
+                <p className="bottom fw-1000 w-100">
                   Especialista de seguridad en redes y datos
                 </p>
 
@@ -92,7 +92,7 @@ const index = () => {
             <div className="item py-2 pointer clickable admin-aws" onClick={() => setSelected("administrador_aws")}>
               <img src="/img/SDWAN.svg" />
               <div className="titles py-3">
-                <p className="bottom">Especialista de seguridad en hackeo ético y nube</p>
+                <p className="bottom fw-1000 w-100">Especialista de seguridad en hackeo ético y nube</p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ const index = () => {
             <div className="item py-2 pointer clickable sd-wan" onClick={() => setSelected("sd-wan")}>
               <img src="/img/CCNA.svg" />
               <div className="titles py-3">
-                <p className="bottom">Especialista de Monitoreo <br /> de seguridad y SD-WAN</p>
+                <p className="bottom fw-1000 w-100">Especialista de Monitoreo <br /> de seguridad y SD-WAN</p>
               </div>
             </div>
             </div>
