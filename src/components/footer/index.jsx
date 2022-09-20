@@ -25,8 +25,9 @@ const index = () => {
             <img src="/img/socials/linkedin.svg" />
           </a>
         </div>
+        <br />
         <div>
-          <p>449 000 00 00</p>
+          <a href="tel:+524491812542">+52 4491812542</a>
         </div>
       </div>
       <div className="footerLinks">
