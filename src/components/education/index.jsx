@@ -133,7 +133,7 @@ const index = () => {
                             teacher: 'Ing. Darío Medina',
                             duration: '24 horas divididas en 4 módulos',
                             horarios: 'Sábados y Domingos 8am a 5pm',
-                            date: 'Inicio 15 de Octubre del 2022',
+                            date: 'Inicio 14 de Enero del 2023',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/742447422?h=54be90894a'
                           })} />
@@ -144,7 +144,7 @@ const index = () => {
                             teacher: 'Ing. Luis Ramirez',
                             duration: '24 horas divididas en 4 módulos',
                             horarios: 'Sábados y Domingos 8am a 5pm',
-                            date: 'Inicio 22 de Octubre del 2022',
+                            date: 'Inicio 21 de Enero del 2023',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/743131924?h=556d0db829'
                           })} />
@@ -155,7 +155,7 @@ const index = () => {
                             teacher: 'Ing. Victor Hugo Lara Damas',
                             duration: '24 horas divididas en 9 módulos',
                             horarios: 'Sábados y Domingos 8am a 5pm',
-                            date: 'Inicio 29 de Octubre del 2022',
+                            date: 'Inicio 28 de Enero del 2023',
                             inversion: '$8,000 MXN más IVA',
                             videoLink: 'https://player.vimeo.com/video/742447463?h=6957e9ab02'
                           })} />

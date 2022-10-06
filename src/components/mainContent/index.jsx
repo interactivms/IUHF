@@ -23,7 +23,7 @@ const index = () => {
                 open &&
                 <div className={open ? "col-12 col-md p-3 transparent-blue-bg appear active" : "col-12 col-md p-3 transparent-blue-bg appear"}>
                   <p className="white">
-                    Definición de META-CURSOS: Impartir cursos de manera síncrona entre el mundo físico y el metaverso. Obteniendo experiencias multidimensionales de uso y aplicación.
+                  Nuestros metacursos combinan las ventajas del mundo físico y del metaverso, habilitando experiencias multidimensionales de uso y aplicación.
                   </p>
                 </div>
               }

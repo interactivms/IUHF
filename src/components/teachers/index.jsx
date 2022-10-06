@@ -113,7 +113,7 @@ const index = () => {
                 <div className="title">
                   <p className="titleWithLine p-3">Nuestros catedráticos</p>
                 </div>
-                <p className="description p-3 mx-0">
+                <p className="description p-3 mx-0 text-justify">
                   El instituto universitario de las habilidades del futuro 
                   está conformado por líderes de alto impacto en la industria
                   tecnológica de México y el mundo,

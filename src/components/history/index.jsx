@@ -7,21 +7,13 @@ const index = () => {
       <div className="row px-5">
         <div className="leftSide">
           <h2>Nuestra historia</h2>
-          <p className="white mobile">
-          El Instituto Universitario de las Habilidades del Futuro surge de un
-            proyecto catalizador integrado por la visión de dos líderes globales
-            de la industria de TI en México.
+          <p className="white mobile text-justify">
+          El Instituto Universitario de las Habilidades del Futuro surge como un proyecto catalizador que atiende a las problemáticas actuales en la industria de las  Tecnologías de Información a nivel global.
           </p>
-          <p className="white no-mobile">
-            El Instituto Universitario de las Habilidades del Futuro surge de un
-            proyecto catalizador integrado por la visión de dos líderes globales
-            de la industria de TI en México.<br />
-            En cooperación con especialistas experimentados que actualmente operan en
-              diferentes industrias, niveles de complejidad y distintos puntos
-              geográficos, incorporamos y fomentamos el conocimiento de
-              vanguardia tecnológica. <br /> Formamos capital humano en áreas de
-              alta tecnología que atiende a la demanda del mercado y acelera la
-              integración de talento al campo laboral.
+          <p className="white no-mobile text-justify">
+          El Instituto Universitario de las Habilidades del Futuro surge como un proyecto catalizador que atiende a las problemáticas actuales en la industria de las  Tecnologías de Información a nivel global.<br /> <br />
+          En cooperación con especialistas experimentados que actualmente operan en diferentes industrias, niveles de complejidad y distintos puntos geográficos, incorporamos y fomentamos el conocimiento de vanguardia tecnológica.
+           <br /> <br /> Formamos capital humano en áreas de alta tecnología que atiende a la demanda
           </p>
         </div>
         <div className="rightSide">

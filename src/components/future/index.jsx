@@ -26,7 +26,7 @@ const index = (props) => {
         <div  className="row mx-0">
           <div className="col-sm-12 col-md-7 p-5 bg-gradient-light-reverse d-flex flex-align-items justify-content-center">
             <div className="d-flex flex-column bg-gradient-light abilities-padding white">
-              <h2 className="rem4">Top 5 <br /> <u>habilidades en <br /> demanda </u> para el 2025:</h2>
+              <h2 className="rem4">Top 5 <br />habilidades en <br /> demanda para el 2025:</h2>
               <br />
               <small className="gray">
                 Fuente: Future of Jobs report 2020, World Economic Forum
@@ -322,10 +322,10 @@ const index = (props) => {
         </div>
         <div className="col-12 ">
           <h2 className="white rem4 text-center">
-            Sal del promedio,
+            Proyecta tu futuro,
           </h2>
           <h2 className="blue rem4 text-center">
-            proyecta tu futuro...
+            desarrollando tus habilidades.
           </h2>
         </div>
       </div>

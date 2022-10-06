@@ -21,6 +21,9 @@ const index = () => {
 
       <div className="menu">
         <ul className="navMenu">
+        <li>
+            <a href={currentWindow === "/" ? "" : "/"}>INICIO</a>
+          </li>
           <li>
             <a href={currentWindow === "/" ? "#Education" : "/#Education"}>EDUCACIÓN</a>
           </li>

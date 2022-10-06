@@ -12,9 +12,9 @@ export default function Home() {
       <Header />
       <MainContent />
       <div className="row mx-0">
-          <iframe className="w-100 p-0 videoBanner mobileNotActive" src="https://player.vimeo.com/video/747408684?h=1708b97a2e&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+          <iframe className="w-100 p-0 videoBanner mobileNotActive" src="https://player.vimeo.com/video/756614088?h=7e5ac1de54&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
           </iframe>
-          <iframe className="w-100 p-0 videoBannerMobile mobile" src="https://player.vimeo.com/video/747408902?h=b71ecfb3f8&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+          <iframe className="w-100 p-0 videoBannerMobile mobile" src="https://player.vimeo.com/video/756614105?h=520ea55a5c&background=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
           </iframe>
           <script src="https://player.vimeo.com/api/player.js%22%3E"></script>
         </div>

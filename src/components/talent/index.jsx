@@ -23,10 +23,10 @@ const index = () => {
 
               <p
                 className={
-                  selected === "ecosystem" ? "subTalent active" : "subTalent"
+                  selected === "ecosystem" ? "subTalent active" : "subTalent active"
                 }
               >
-                IUHF te ofrece una experiencia innovadora al ser posible interactuar con tus docentes y compañeros a través del metaverso.
+                IUHF te ofrece una experiencia innovadora al interactuar con docentes y compañeros a través del metaverso.
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const index = () => {
               </p>
               <p
                 className={
-                  selected === "leaders" ? "subTalent active" : "subTalent"
+                  selected === "leaders" ? "subTalent active" : "subTalent active"
                 }
               >
                 Aprenderás directamente de los especialistas más reconocidos en la industria de la tecnología.
@@ -75,11 +75,11 @@ const index = () => {
               </p>
               <p
                 className={
-                  selected === "opportunities" ? "subTalent active" : "subTalent"
+                  selected === "opportunities" ? "subTalent active" : "subTalent active"
                 }
               >
-                Con IUHF, es muy fácil conectar con tu futuro empleo gracias a nuestros cursos desarrollados especialmente para cubrir la demanda del mercado actual y futura.
-              </p>
+                IUHF conecta con tu futuro empleo gracias a nuestra red de contactos que aceleran el proceso de reclutamiento.
+                </p>
             </div>
           </div>
         </div>

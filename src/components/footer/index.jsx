@@ -13,6 +13,7 @@ const index = () => {
       <div className="logo">
         <img src="/img/Recurso5.svg"></img>
       </div>
+      {/*
       <div className="socials">
         <div className="socialLinks">
           <a className="" href="#">
@@ -30,6 +31,7 @@ const index = () => {
           <a href="tel:+524491812542">+52 4491812542</a>
         </div>
       </div>
+      */}
       <div className="footerLinks">
         <div className="links">
           <a className="link" href={currentWindow === "/" ? "#Education" : "/#Education"}>EDUCACIÓN</a>

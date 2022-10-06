@@ -24,7 +24,7 @@ function trayectoria() {
         <div className="col-12">
           <div className="row  mx-0">
             <div className="col-12 vh-60 col-md px-5">
-              <p className="white">
+              <p className="white text-justify">
               A diferencia de la educación 
               tradicional, IUHF fomenta la 
               libertad y flexibilidad de crear tu 
@@ -32,7 +32,7 @@ function trayectoria() {
               necesidades.
               </p>
               <br />
-              <p className="white">
+              <p className="white text-justify">
               Sabemos que hoy en día, las 
               habilidades que necesitan las 
               empresas de tecnología e 
@@ -41,7 +41,7 @@ function trayectoria() {
               educación tradicional.
               </p>
               <br />
-              <p className="white">
+              <p className="white text-justify">
               De esta manera, nuestros alumnos 
               podrán mantenerse a la vanguardia 
               en su industria, creciendo su perfil 
@@ -56,7 +56,7 @@ function trayectoria() {
         </div>
         <div className="col-12 px-5">
           <h2 className="white bolder fontsize-3 fw-1000">Tendencias tecnológicas <span className='darkblue'>estratégicas del futuro</span></h2>
-          <small className="white text-right">Fuente: Gertner. Inc. 2022</small>
+          <small className="white text-right">Fuente: Gartner. Inc. 2022</small>
         </div>
         <br />
         <div className="col-12">
@@ -67,7 +67,7 @@ function trayectoria() {
             <div className="h-fit">
             <h2 className="white bolder fontsize-3 fw-1000">EDUCACIÓN BASADA EN <span className='darkblue'>TENDENCIAS <br /> TECNOLÓGICAS</span></h2>
           <br />
-          <p className="white">
+          <p className="white text-justify">
             Nuestro objetivo es proveer a la comunidad capacitación en tecnologías de la información 
             de vanguardia y habilidades del futuro para satisfacer la creciente demanda de la industria 
             con personal capacitado y al mismo tiempo facilitar al personal, el encontrar 

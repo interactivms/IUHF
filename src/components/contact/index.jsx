@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { sendContact } from "../../../pages/api/api";
 
 const index = (props) => {
+  
   const [successNotification, setSuccessNotification] = useState(null);
   const [notification, setNotification] = useState(null);
   const [email, setEmail] = useState("");

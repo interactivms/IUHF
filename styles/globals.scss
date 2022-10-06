@@ -33,6 +33,9 @@ p {
   font-size: 1.25rem;
 }
 
+.text-justify {
+  text-align: justify;
+}
 .videoBanner {
   height: clamp(300px, 38vw, 720px);
 }
@@ -215,8 +218,6 @@ p {
 }
 
 .subTalent {
-  font-size: 1.25rem !important;
-  font-weight: normal;
   opacity: 0;
   display: none;
   transition: 300ms all;
@@ -556,13 +557,9 @@ u {
     }
     .description {
       color: #fff;
-      font-size: 2rem;
       width: 100%;
-      font-weight: 300;
-      line-height: 2.5rem;
       letter-spacing: 0.1rem;
       padding-right: 7em;
-      text-align: left;
     }
 
   }
@@ -1576,4 +1573,14 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+.whatsappIcon {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  z-index: 200;
+  bottom: 40px;
+  right: 40px;
+
 }

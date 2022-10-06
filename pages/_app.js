@@ -16,6 +16,9 @@ function MyApp({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"></link>
       </Head>
+      <a href="https://wa.me/524491812542">
+        <img className="clickable pointer whatsappIcon" src="/img/whatsapp.svg" />
+      </a>
       <Component {...pageProps} />
     </>
   );
