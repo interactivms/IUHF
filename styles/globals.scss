@@ -87,6 +87,21 @@ p {
 }
 @media (max-width: 900px) {
 
+  .trajectory-text {
+    bottom: 0;
+    left: 0;
+    width: 90% !important;
+    height: fit-content;
+  }
+
+  .trajectory-header {
+    background-image: url('/img/header_trayectoria.png');
+    background-position: 60% 50% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
   .fontsize-4 {
     font-size: 1.5rem;
   }

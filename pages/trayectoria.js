@@ -9,11 +9,12 @@ function trayectoria() {
       <Header />
       <div className="vh-100 relative trajectory-header">
       <div className="absolute trajectory-text p-5">
-          <h2 className='fontsize-2 white line-inherit'>Crea tu especialidad <br /> conforme a tus<br />necesidades.</h2>
+          <h2 className='fontsize-2 white line-inherit no-mobile'>Crea tu especialidad <br /> conforme a tus<br />necesidades.</h2>
+          <h2 className='fontsize-2 white line-inherit mobile'>Crea tu <br /> especialidad conforme a tus<br />necesidades.</h2>
           <br />
 
           <br />
-          <h2 className='fontsize-3 white line-inherit'><span className="header-text-background fw-1000 p-1 px-2">Tu nueva</span><br /><span className="header-text-background fw-1000 p-1 px-2">trayectoria educativa</span></h2>
+          <h2 className='fontsize-3 white line-inherit'><span className="header-text-background fw-1000 p-1 px-2">Tu nueva trayectoria</span><br /><span className="header-text-background fw-1000 p-1 px-2">educativa</span></h2>
         </div>
       </div>
       <div className="background-darkGray lion-BG py-2">
