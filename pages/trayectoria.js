@@ -19,7 +19,7 @@ function trayectoria() {
       <div className="background-darkGray lion-BG py-2">
         
       <div className="col-12 py-5">
-          <h2 className="white bolder fw-1000 text-center"><span className='darkblue'>CONSTRUYE</span> TU PROPIO CAMINO</h2>
+          <h2 className="white bolder fw-1000 text-center fontsize-3"><span className='darkblue'>CONSTRUYE</span> TU PROPIO CAMINO</h2>
         </div>
         <div className="col-12">
           <div className="row  mx-0">
