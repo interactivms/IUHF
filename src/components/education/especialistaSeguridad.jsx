@@ -23,7 +23,7 @@ function EspecialistaSeguridad(props) {
               date: "Inicio Noviembre 5, 2022",
               inversion: "$8,000 MXN más IVA",
               videoLink:
-                "https://player.vimeo.com/video/742447422?h=54be90894a",
+                "https://player.vimeo.com/video/758092451?h=39f34734b4"
             })
           }
         >
