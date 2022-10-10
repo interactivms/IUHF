@@ -54,7 +54,7 @@ function trayectoria() {
             </div>
           </div>
         </div>
-        <div className="col-12 px-5">
+        <div className="col-12 px-5 py-4">
           <h2 className="white bolder fontsize-3 fw-1000">Tendencias tecnológicas <span className='darkblue'>estratégicas del futuro</span></h2>
           <small className="white text-right">Fuente: Gartner. Inc. 2022</small>
         </div>

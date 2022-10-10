@@ -21,7 +21,7 @@ const index = () => {
               </div>
               {
                 open &&
-                <div className={open ? "col-12 col-md p-3 transparent-blue-bg appear active" : "col-12 col-md p-3 transparent-blue-bg appear"}>
+                <div className={open ? "col-12 col-md my-2 p-3 transparent-blue-bg appear active" : "col-12 col-md p-3 transparent-blue-bg appear"}>
                   <p className="white">
                   Nuestros metacursos combinan las ventajas del mundo físico y del metaverso, habilitando experiencias multidimensionales de uso y aplicación.
                   </p>
